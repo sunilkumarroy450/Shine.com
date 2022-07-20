@@ -1,0 +1,128 @@
+#container{
+    width:80%;
+    /* border: 1px solid green; */
+    margin:auto;
+    height:500px;
+    padding:20px;
+
+
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+#add_to_cart{
+    width:70%;
+    /* border: 1px solid rgb(128, 0, 11); */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+
+
+}
+#com{
+    width:28%;
+    /* border: 1px solid rgb(0, 128, 75); */
+
+}
+h4{
+    margin-right: 30px;
+
+}
+#coupon{
+    /* display:flex; */
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin:auto;
+    border-radius:3px;
+
+}
+#cou{
+    display:flex;
+    justify-content: space-between;
+}
+#in{
+    width:98%;
+    display:flex;
+    justify-content: space-between;
+    margin:auto;
+}
+input{
+    width:68%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    height:40px
+
+
+}
+button:hover{
+    background-color: rgb(28, 101, 236);
+}
+button{
+    width:28%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: rgb(118, 118, 250);
+
+}
+#total{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 3px;
+    margin-bottom:20px;
+
+}
+.sub{
+display:flex;
+justify-content: space-between;
+padding:5px
+}
+#niraj{
+display:flex;
+justify-content: space-between;
+gap:50px;
+width:95%;
+margin:30px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-radius:3px;
+height:100px;
+
+}
+#niraj1{
+display:flex;
+/* height:10%; */
+justify-content:flex-end;
+width:10%;
+margin:auto;
+
+}
+#img{
+border-radius: 50%;
+/* width:20%; */
+}
+#pbuy{
+display:flex;
+height:8%;
+justify-content:flex-end;
+width:45%;
+margin: auto;
+margin-left:185px;
+/* margin-bottom: -30px; */
+}
+.sub>h3{
+color:grey;
+
+}
+h3>span{
+color:black;
+}
+#title{
+border:1px solid green;
+width:76%;
+margin:auto;
+}
+#new{
+
+   background-color: rgb(247, 242, 242);
+}
+#new:hover{
+background-color: grey;
+
+}
