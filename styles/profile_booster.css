@@ -1,0 +1,228 @@
+
+* {
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+#first {
+    display: flex;
+    background-color: #ecf7fd;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+#showmoretexts {
+    color: #38404c;
+    font-size: 15px;
+}
+
+#textButton {
+    border: transparent;
+    color: #9060ff;
+    font-weight: bolder;
+    background-color: #ecf7fd;
+    font-size: 16px;
+}
+
+/* **************************************Second section starts from here************************************** */
+#second-1>div>img {
+    width: 20px;
+    height: 20px;
+
+}
+
+#second {
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 40px;
+    width: 90%;
+
+
+}
+
+#s0 {
+
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+
+
+#second-1 {
+
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(54, 53, 53, 0.4) 0px 5px 10px;
+    color: #505e6b;
+
+}
+
+#second-1>div {
+    width: 90%;
+    border: 0.5px solid rgb(235, 225, 225);
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* *********************************Third Section Starts From Here*********************************************** */
+
+
+#third {
+    display: flex;
+    flex-direction: column;
+
+
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+
+    justify-content: center;
+
+}
+
+#third-top {
+    display: flex;
+    flex-direction: column;
+    background-color: #fafaff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    width: 90%;
+    margin: auto;
+
+
+    justify-content: center;
+
+}
+
+#third-1,
+#third-2 {
+    display: flex;
+
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+}
+
+#third-2 {
+    padding: 0px 0px 30px 0px;
+}
+
+#third-2>button {
+    background-color: white;
+    border: 0.5px solid rgb(235, 225, 225);
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+/* **************************************Fourth Section Starts From Here******************************************* */
+
+#fourth {
+    display: flex;
+    flex-direction: column;
+
+
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+
+    justify-content: center;
+}
+
+#fourth-top {
+    display: flex;
+    flex-direction: column;
+    background-color: #ecf7fd;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    width: 90%;
+    margin: auto;
+    padding: 47px 0px 47px 0px;
+
+    justify-content: center;
+
+}
+
+#fourth-1 {
+    display: flex;
+    flex-direction: column;
+    width:130px;
+   
+    margin-left: 5%;
+    background-color: white;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+#fourth-1>img {
+    width: 50px;
+    
+}
+
+
+#fourth-2 {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+}
+
+
+
+#fourth-2>button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: white;
+    border: 0.5px solid rgb(235, 225, 225);
+    border-radius: 3px;
+    padding: 6px;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+#fourth-2>button+button {
+    background-color: #9060ff;
+    color: white;
+    width: 250px;
+    border-radius: 5px;
+}
+
+#fourth-2>h2+button {
+    background-color: #fba504;
+    color: white;
+    width: 150px;
+    border-radius: 5px;
+}
+
+#fourth-2>h2>strike{
+    color: #505e6b;
+}
+
