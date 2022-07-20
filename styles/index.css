@@ -150,6 +150,15 @@ h4{
     
 }
 
+/* #assesment>div:first-child>div{
+    position: relative;
+    
+}
+#assesment>div:first-child>div>{
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
 #aslogo1{
     font-size: 30px;
     font-weight: 200;
@@ -218,31 +227,34 @@ ul>li{
 
 #scrool{
     width: 90%;
-    border: 1px solid;
     margin: auto;
+    overflow: hidden;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+#scrool>div{
     display: grid;
-    overflow: scroll;
     grid-template-columns: repeat(7,165px);
     grid-template-rows: repeat(2,80px);
     gap: 20px;
-    padding: 10px 0px;
-    margin-bottom: 20px;
+    padding: 0px 5px;
+    transition: 500ms;
 }
 
-#scrool>div{
+#scrool>div>div{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 5px;
     display: flex;
 
 }
 
-#scrool>div>img{
+#scrool>div>div>img{
     width: 100%;
 }
 
-#scrool::-webkit-scrollbar{
+/* #scrool::-webkit-scrollbar{
     display: none;
-}
+} */
 
 .crousel1{
     height: 40px;
@@ -252,4 +264,13 @@ ul>li{
     background-color: white;
     font-weight: 600;
     font-size: 20px;
+}
+
+#cooladnco>p{
+    text-align: center;
+    font-family: sans-serif;
+    color: blue;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 20px;
 }
