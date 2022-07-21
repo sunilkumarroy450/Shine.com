@@ -1,0 +1,264 @@
+#sign_Navbar{
+    display: flex;
+    justify-content: space-around;
+   width: 100%;
+   height: 40%;
+   background-color: white;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#sign_logo{
+ height: 60px;
+ cursor: pointer;
+ margin-left:px;
+}
+#login_btn{
+   width: 70px;
+   height: 30px;
+   margin-top: 18px;
+   font-size: 15px;
+   border-radius: 5px;
+   color: white;
+   background-color: rgb(153,156,219);
+   border: none;
+   cursor: pointer;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* .base {
+   background: url(https://static1.shine.com/c/s1/bundles/registration-d4211ab.png) #fff;
+   background-repeat: no-repeat;
+   background-position: 12%;
+   background-size: cover;
+   margin-top: 100px;
+   border: 1px solid;
+  margin-left: 200px;
+} */
+#bg{
+  margin: auto;
+   width: 62%;
+   display: flex;
+   margin-top: 50px;
+   position: relative;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+}
+#bg>img{
+   width: 100%;
+   height: 00%;
+}
+#sign_div{
+  
+
+}
+#sign_resume_div{
+   height: 500px;
+   position: absolute;
+   margin-top: 80px;
+   margin-bottom: 80px;
+   margin-left: 50px;
+   
+}
+.resume_text{
+   text-align: center;
+}
+#resume_btn{
+   display: flex;
+   width: 70%;
+   background-color: rgb(153,156,219);
+   border-radius: 5px;
+   margin: auto;
+   cursor: pointer;
+   border: none;
+  
+}
+.upload{
+   height: 25px;
+   margin-top: 10px;
+   margin-left: 40px;
+           
+}
+.upload_size{
+  text-align: center;
+  color: gray;
+}
+#resume_btn>h3{
+  margin-left: 5px;
+  color: aliceblue;
+}
+#line1{
+   position:relative;
+   margin-left:-570px;
+   height: 260px;
+   margin-top: 75px;
+   border: 0.5px solid gray;
+}
+#line1+p{
+   margin-top: 330px;
+   margin-left: -9px;
+   font-size: 20px;
+}
+#line2{ 
+   position:relative;
+   margin-left:-9px;
+   height: 260px;
+   margin-top: 350px;
+   border: 0.5px solid gray;
+}
+#input_div{
+   position: absolute;
+   width: 50%;
+   margin-top: 80px;
+   margin-bottom: 80px;
+   margin-left: 500px;
+
+}
+#input_form>input{
+   display: block;
+   margin: auto;
+   margin-top: 20px;
+   width: 70%;
+   height: 40px;
+   font-size: 18px;
+   font-weight: 500;
+   border-radius: 5px;
+   border-color: rgb(231, 226, 226);
+
+ 
+}
+.input_p{
+   margin-top: -20px;
+   color: gray;
+ margin-left:70px;
+}
+.input_text{
+  font-size: 20px;
+  margin-left:70px;
+}
+.inp{
+   color: gray;
+   margin-left:70px ;
+}
+#checkDiv{
+   margin-left: 70px;
+   margin-top: 5px;
+   font-size: 12px;
+}
+#input_btn{
+   margin-left: 70px;
+   width: 70%;
+   height: 40px;
+   margin-top: 10px;
+   font-size: 18px;
+   font-weight: 500;
+   border-radius: 5px;
+   color: white;
+   border-color: rgb(231, 226, 226);
+   background-color: rgb(153,156,219);
+   cursor: pointer;
+}
+#link_logo{
+   margin: auto;
+   display: flex;
+   width: 50%;
+   justify-content: space-evenly;
+}
+#line3{
+   width: 120px;
+   margin-top: 40px;
+   margin-left: 75px;
+ border: 1px solid gray;
+}
+#line3+p{
+  margin-left: 200px;
+  margin-top: -12px;
+}
+#line4{
+   width: 120px;
+   margin-left: 307px;
+   margin-top: -25px;
+  border: 1px solid gray;
+}
+a{
+   text-decoration: none;
+}
+#google{
+   display: flex;
+   width: 90%;
+  background-color:white;
+   border-radius: 5px;
+   margin-left: 10px;  
+   margin-top: 50px;
+   border: none;
+   cursor: pointer;
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.image_logo{
+   height: 25px;
+   margin-top: 11px;
+   margin-left: 5px;    
+}
+#google>h3{
+ margin-left: 10px;
+ margin-right: 10px;
+ color: gray;  
+ font-size: 15px;
+}
+#linkedin{
+   display: flex;
+   width: 100%;
+  background-color:white;
+   border-radius: 5px;
+   margin-left: 10px;  
+   margin-top: 50px;
+   border: none;
+   cursor: pointer;
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+} 
+#linkedin>h3{
+   margin-left: 10px;
+ margin-right: 10px;
+ color: gray;  
+ font-size: 15px;
+}
+#facebook{
+   display: flex;
+   width: 100%;
+  background-color:white;
+   border-radius: 5px;
+   margin-left: 18px;  
+   margin-top: 50px;
+   border:none;
+   cursor: pointer;
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+#facebook>h3{
+   margin-left: 10px;
+ margin-right: 10px;
+ color: gray;  
+ font-size: 15px;
+}
+#futter_up_text{
+   width:52%;
+   margin: auto;
+   font-size: 15px;
+   margin-top: 20px;
+   color: gray;
+   border-radius: 5px;
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+#futter_up_text>p{
+ text-align: center;
+}
+#futter{
+   display: flex;
+   width: 100%;
+   margin-top: 50px;
+   background-color: rgb(244,245,245);
+   justify-content: space-around;
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+#futter>a>p{
+   text-align: center;
+   color: gray;
+}
