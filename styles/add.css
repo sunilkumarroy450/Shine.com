@@ -67,6 +67,7 @@ button{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 3px;
     margin-bottom:20px;
+    padding:15px;
 
 }
 .sub{
@@ -126,3 +127,23 @@ margin:auto;
 background-color: grey;
 
 }
+#pbuy:hover{
+    background-color: rgb(39, 39, 252);
+   }
+   #pbuy {
+    background-color:rgb(85, 85, 255);
+    color:white;
+    text-align: center;
+    padding:1px;
+    border-radius:5px;
+   }
+   #pbuy a{
+    display:grid;
+    color:white;
+    border:none;
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+    text-decoration:none;
+    
+   }

@@ -26,7 +26,7 @@ function append(obj){
    var cgst= document.getElementById("cgst")
    var three= cgst.innerHTML="$"+" "+(+Math.floor(9/100*sum))
    var totalp= document.getElementById("totalp")
-   final=two
+   final=Number(sum)+Number(two)+Number(three)
     four=totalp.innerHTML=final;
 
 
