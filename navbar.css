@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -46,7 +47,7 @@
     display: flex;
 }
 
-
+/* FIRST dIV END ******************************************************************************************************************/
 
 
 
@@ -95,7 +96,7 @@
 #otherHalf2 img{
     height: 22px;
 }
-/* second Div DropDown and Hover  */
+/* second Div DropDown and Hover ######################################### */
 
 #dropdown1{
     position: relative;
@@ -147,11 +148,19 @@ font-size: 13px;
 display: none;
     font-family: sans-serif;
     cursor: pointer;
-    
+    color:white;
+    background-color: black;
+}
+#dropdown-content2 P{
+    height: 15px;
+    width: 10px;
+    border: 1px solid green;
 }
 #dropdown2:hover #dropdown-content2{
     display: block;
     position: absolute;
+    left: auto;
+    right: 2px;
 }
 
 
@@ -168,16 +177,36 @@ background-color: white;
 display: none;
     font-family: sans-serif;
     cursor: pointer;
-    margin-top: 18px;
+    margin-top: 16px;
     /* border: 1px solid pink; */
+    height: 150px;
+
+    width: 170px;
     padding: 40px;
     text-align: center;
     justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
-#btn1 , #btn2{
-    margin: 5px;
-    padding:  3px 5px;
+#btn1{
+    margin-top: 15px;
+    padding:  10px 55px;
+    font-size: 18px;
+    background-color: #865aeb;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: white;
+}
+#btn2{
+    margin-top: 26px;
+    padding: 10px 35px;
+    color: #865aeb;
+    font-size: 16px;
+    background-color: white;
+    /* border-color: white; */
+    cursor: pointer;
+    border-bottom: #edf2f5;
+    border-right: #edf2f5;
+    border-left: #edf2f5;
 }
 
 #dropdown3:hover #dropdown-content3{
@@ -187,7 +216,7 @@ display: none;
     right: 18vh;
 }
 
-
+/* SECOND dIV eND ****************************************************************************************************************************/
 
 
 #bottomDiv{
@@ -245,4 +274,8 @@ display: none;
 .dropdown:hover .dropdown-content{
     display: block;
     position: absolute;
+    border-bottom: 1px solid #865aeb;
 }
+
+
+/* BOTTOM dIV END ******************************************************************************************************************************/
