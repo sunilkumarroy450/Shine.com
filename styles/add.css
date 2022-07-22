@@ -92,6 +92,8 @@ display:flex;
 justify-content:flex-end;
 width:10%;
 margin:auto;
+background-color: white;
+border:none;
 
 }
 #img{
