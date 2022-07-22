@@ -1,9 +1,11 @@
 #payment{
-    border:1px solid grey;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* border:1px solid grey; */
     width:24%;
     margin:auto;
     padding:15px;
     height:600px;
+    border-radius: 5px;
     /* gap:5px; */
 }
 
@@ -95,4 +97,82 @@ h3{
 h4{
     color:#4f4f4f;
 
+}
+#pay{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* border:1px solid grey; */
+    width:24%;
+    margin:auto;
+    /* padding:15px; */
+    height:auto;
+    padding:30px;
+    border-radius: 5px;
+    padding-bottom:50px;
+     /* gap:5px; */
+}
+#one{
+    background-color: rgba(101, 101, 252, 0.76);
+    margin-bottom:-22px;
+}
+#two{
+    padding:6px;
+    background-color: rgba(8, 8, 223, 0.76);
+    border:none;
+
+}
+a{
+    border:none;
+    color:rgb(27, 27, 27);
+} 
+#sel{
+    background-color: rgb(90, 90, 252);
+    color:white;
+}
+#sig{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(229, 252, 244);
+
+}
+#check{
+    display:flex;
+}
+#final{
+    padding: 20px;
+    width:100%;
+    background-color: blue;
+    size:25px;
+}
+#card{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:10px;
+}
+.a{
+    width:100%
+}
+.b{
+    width:28%;
+}
+#fpaid{
+    background-color: rgb(117, 117, 252);
+    text-align: center;
+    margin:auto;
+    padding:10px;
+    /* margin-bottom:200px; */
+    color:white;
+}
+#fpaid:hover{
+    background-color: rgb(93, 93, 252);}
+
+p{
+    color:#4f4f4f;
+}
+#check>p{
+    margin-bottom:25px;
+
+}
+#card_section{
+    display:none;
 }

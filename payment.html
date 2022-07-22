@@ -4,86 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Payment.html</title>
     <style> 
-       #pay{
-            border:1px solid grey;
-            width:24%;
-            margin:auto;
-            padding:15px;
-            height:600px;
-             /* gap:5px; */
-        }
-        #one{
-            background-color: rgba(101, 101, 252, 0.76);
-            margin-bottom:-22px;
-        }
-        #two{
-            padding:6px;
-            background-color: rgba(8, 8, 223, 0.76);
-            border:none;
-
-        }
-        a{
-            border:none;
-            color:rgb(27, 27, 27);
-        } 
-        #sel{
-            background-color: rgb(90, 90, 252);
-            color:white;
-        }
-        #sig{
-            display:flex;
-            justify-content: space-between;
-            padding: 10px;
-            background-color: rgb(229, 252, 244);
-
-        }
-       #check{
-            display:flex;
-        }
-        #final{
-            padding: 20px;
-            width:100%;
-            background-color: blue;
-            size:25px;
-        }
-        #card{
-            display:grid;
-            grid-template-columns:repeat(2,1fr);
-            gap:10px;
-        }
-        .a{
-            width:100%
-        }
-        .b{
-            width:28%;
-        }
-        #fpaid{
-            background-color: rgb(117, 117, 252);
-            text-align: center;
-            margin:auto;
-            padding:10px;
-            /* margin-bottom:200px; */
-            color:white;
-        }
-        #fpaid:hover{
-            background-color: rgb(93, 93, 252);}
-
-        p{
-            color:#4f4f4f;
-        }
-        #check>p{
-            margin-bottom:25px;
-
-        }
-        #card_section{
-            display:none;
-        }
-      
-
-      
-     
     </style>
     <link rel="stylesheet" href="./styles/payment.css">
 </head>
@@ -169,7 +91,7 @@
         <div id="one">
             <h1>HT Media</h1>
             <p>order description</p>
-        <h1 id="lpay">0</h1>
+        <h1 id="ppay">0</h1>
        </div>
         <div id="two">
           <select name="" id="sel">
@@ -185,19 +107,19 @@
             <div>phone</div>
         </div>
         <h3>Add New Card</h3>
-        <div id="card">
-            <input type="text" class="a" placeholder="Card Number">
-            <input type="date" class="b" placeholder="Expiry">
+        <form id="card">
+            <input type="text" class="a" placeholder="Card Number" name="Number" >
+            <input type="date" class="b" placeholder="Expiry" nam="">
             <input type="text" class="a" placeholder="Card Holder's name">
-            <input type="number" class="b" placeholder="CVV">
-        </div>
-        <div id="check">
-            <input type="checkbox">
-            <p id="tit">Save card securely for future payments
-                Know More</p>
-        </div>
-        <h2 id="fpaid">Pay</h2>
-         </button>
+            <input type="number" class="b" placeholder="CVV" name="cvv">
+            <div id="check">
+                <input type="checkbox">
+                <p id="tit">Save card securely for future payments
+                    Know More</p>
+                </div>
+            <input type="submit"  id="fpaid"></input>
+        </form>
+         
         </div>
     </div>
     
