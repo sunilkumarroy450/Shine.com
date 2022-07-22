@@ -244,21 +244,21 @@
         #fifth {
             display: flex;
             flex-direction: column;
-            width: 90%;
-
+            width: 100%;
+            background-color: white;
             margin: auto;
             margin-top: 50px;
             align-items: center;
-            justify-content: center;
 
+            overflow: hidden;
         }
 
         #fifth-1 {
 
             display: flex;
             flex-direction: column;
-
-            width: 90%;
+            overflow: hidden;
+            width: 81%;
 
         }
 
@@ -283,6 +283,32 @@
             font-weight: bolder;
             text-decoration: underline;
         }
+
+
+
+
+        #fifth-1 a {
+            float: none;
+            display: block;
+            color: #f2f2f2;
+
+
+            text-decoration: none;
+        }
+
+
+
+
+        .sticky {
+            position: fixed;
+            top: -50;
+
+        }
+
+
+        /* .sticky + .content {
+            padding-top: -60px;
+            } */
 
         /* ****************************************sixth Section Starts From Here******************************************* */
 
@@ -338,9 +364,9 @@
             background-color: #e0eef7;
         }
 
-        /* ****************************************seventhth Section Starts From Here******************************************* */
+        /* ****************************************seventh Section Starts From Here******************************************* */
 
-        
+
 
 
 
@@ -353,15 +379,15 @@
             display: none;
             /* position: absolute; */
 
-            min-width: 1100px;
-            overflow: auto;
+
+            min-width: 100%;
 
             z-index: 1;
         }
 
         .dropdown-content1 p {
 
-            padding: 12px 16px;
+            padding: 0px 10px;
 
             color: black;
             display: flex;
@@ -372,7 +398,7 @@
             display: none;
             /* position: absolute; */
 
-            min-width: 1100px;
+            min-width: 100%;
             overflow: auto;
 
             z-index: 1;
@@ -380,7 +406,7 @@
 
         .dropdown-content2 p {
 
-            padding: 12px 16px;
+            padding: 0px 10px;
 
             color: black;
             display: flex;
@@ -391,7 +417,7 @@
             display: none;
             /* position: absolute; */
 
-            min-width: 1100px;
+            min-width: 100%;
             overflow: auto;
 
             z-index: 1;
@@ -399,7 +425,7 @@
 
         .dropdown-content3 p {
 
-            padding: 12px 16px;
+            padding: 0px 10px;
 
             color: black;
             display: flex;
@@ -408,17 +434,13 @@
 
         .dropdown-content4 {
             display: none;
+            min-width: 100%;
             /* position: absolute; */
-
-            min-width: 1100px;
-            overflow: auto;
-
-            z-index: 1;
         }
 
         .dropdown-content4 p {
 
-            padding: 12px 16px;
+            padding: 0px 10px;
 
             color: black;
             display: flex;
@@ -429,7 +451,7 @@
             display: none;
             /* position: absolute; */
 
-            min-width: 1100px;
+            min-width: 100%;
             overflow: auto;
 
             z-index: 1;
@@ -437,14 +459,14 @@
 
         .dropdown-content5 p {
 
-            padding: 12px 16px;
+            padding: 0px 10px;
 
             color: black;
             display: flex;
             flex-direction: column;
         }
 
-        
+
 
         .show1 {
             display: block;
@@ -456,36 +478,48 @@
             width: 90%;
             margin: auto;
             margin-top: 40px;
-            
+
+
         }
 
         #seventh-1>div>div:nth-child(1) {
             display: flex;
+
+            height: 40px;
+            margin: auto;
             background-color: white;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
         }
-        #seventh-1>div>div:nth-child(1)>button{
-            padding: 16px;
+
+        #seventh-1>div>div:nth-child(1)>button {
+            display: flex;
+            justify-content: space-between;
             font-size: 16px;
             border: none;
+            font-weight: 700;
+            color: black;
             background-color: white;
             cursor: pointer;
+            width: 100%;
+
+        }
+
+        #seventh-1>div>div:nth-child(1)>h2 {
+            color: rgb(151, 14, 185);
         }
 
 
-            
+
+
+
+        #seventh-1>div>h1 {
+            margin-left: 10px;
+        }
+
+
         #seventh-1 {
-
-            width: 90%;
-
-            display: flex;
-            flex-direction: column;
-            margin: auto;
-            justify-content: center;
-            border: 1px solid red;
-            }
-
-
-            #second-1 {
 
             width: 90%;
             display: flex;
@@ -494,26 +528,159 @@
             justify-content: center;
             align-items: center;
             box-shadow: rgba(54, 53, 53, 0.4) 0px 5px 10px;
-            color: #505e6b;
 
-            }
 
-            #second-1>div {
+        }
+
+        #seventh-1>div {
             width: 90%;
             border: 0.5px solid rgb(235, 225, 225);
             border-top-style: none;
             border-right-style: none;
             border-bottom-style: solid;
             border-left-style: none;
-            display: grid;
-            grid-template-columns: 6fr 1fr 1fr;
+            margin-bottom: 15px;
 
             justify-content: center;
             align-items: center;
+        }
+
+        /* ****************************************Eighth Section Starts From Here******************************************* */
 
 
-            }
 
+
+
+
+
+        /* ****************************************chat function Starts From Here******************************************* */
+
+        .chatbtn {
+
+            color: white;
+
+            border: none;
+            cursor: pointer;
+            opacity: 0.8;
+            position: fixed;
+            bottom: 23px;
+            right: 28px;
+            border-radius: 50%;
+        }
+
+        /* The popup chat - hidden by default */
+        .chat-popup {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            right: 15px;
+            border: 3px solid #f1f1f1;
+            z-index: 9;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        /* Add styles to the form container */
+        .form-container {
+            min-width: 350px;
+            
+            background-color: white;
+        }
+
+        /* Full-width textarea */
+        .form-container textarea {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            border: none;
+            background: #f1f1f1;
+            resize: none;
+            min-height: 250px;
+            
+        }
+
+        /* When the textarea gets focus, do something */
+        .form-container textarea:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+
+        /* Set a style for the submit/send button */
+        /* .form-container .btn {
+            background-color: #04AA6D;
+            color: white;
+            
+            border: none;
+            cursor: pointer;
+           
+            margin-bottom: 10px;
+            opacity: 0.8;
+        } */
+
+        /* Add a red background color to the cancel button */
+       
+
+        /* Add some hover effects to buttons */
+        .form-container .btn:hover,
+        .open-button:hover {
+            opacity: 1;
+        }
+
+        #tophead {
+            display: flex;
+            flex-direction: row;
+            border-radius: 10px 10px 0px 0px;
+            justify-content:center;
+            
+            height: 8px;
+            padding: 10px;
+            align-items: center;
+            background-color: #2866A9;
+           
+            font-size: 14px;
+            font-weight: 600;
+            color: rgba(228, 227, 227, 0.87);
+        }
+        #tophead>h2{
+            margin-left: 42%;
+            margin-right: 20px;
+            
+        }
+        #tophead>button{
+            background-color: #2866A9;
+            border: none;
+        }
+
+        #imgsection {
+            display: flex;
+            margin: auto;
+            gap: 15px;
+
+        }
+
+        #imgsection>img {
+            width: 50px;
+            height: 50px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            margin-left: 10px;
+            margin-top: -6px;
+            background-color: white;
+        }
+
+        #twohead {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+        }
+
+        #twohead>h5 {
+            margin-top: -0px;
+        }
+
+        #twohead>h5:nth-child(2) {
+            margin-top: -20px;
+        }
+        
     </style>
 </head>
 
@@ -704,13 +871,13 @@
             <ul>
 
                 <h3>
-                    <a href="">How It Works</a>
+                    <a href="#sixth">How It Works</a>
                 </h3>
                 <h3>
-                    <a href="">FAQs</a>
+                    <a href="#seventh">FAQs</a>
                 </h3>
                 <h3>
-                    <a href="">Reviews</a>
+                    <a href="#eighth">Reviews</a>
                 </h3>
 
             </ul>
@@ -763,14 +930,14 @@
 
 
     <div id="seventh">
-        <div id="se0">
-
-            <h2>
-                FAQs
-
-            </h2>
-        </div>
         <div id="seventh-1">
+            <div id="se0" style="border: none;">
+
+                <h1>
+                    FAQs
+
+                </h1>
+            </div>
 
             <div id="se1" class="dropdown1">
                 <div id="btn1">
@@ -788,17 +955,17 @@
             <div id="se2" class="dropdown2">
 
                 <div>
-                    <button onclick="myFunction2()" id="dropbtn2" class="dropbtn2">How can I use the Featured
-                        Profile? ></button>
+                    <button onclick="myFunction2()" id="dropbtn2" class="dropbtn2">How can I use the Featured Profile?
+                    </button>
                     <h2 id="arrow2"> > </h2>
                 </div>
 
                 <div id="myDropdown2" class="dropdown-content2">
                     <p>After you purchase Shine Premium or Profile Booster, you will get a welcome call from one of
                         our experts and then your featured profile will be activated for 15 days
-                        <br> for Profile Booster, 30 days for Shine Premium Basic and for 60 days for Shine Premium
+                        for Profile Booster, 30 days for Shine Premium Basic and for 60 days for Shine Premium
                         Pro. With featured profile, your profile will be highlighted in
-                        <br> recruiter’s search and will be among the first ones to be seen by recruiters every time
+                        recruiter’s search and will be among the first ones to be seen by recruiters every time
                         you appear in a search, for the validity period of featured profile.
                     </p>
 
@@ -810,16 +977,16 @@
 
                 <div>
                     <button onclick="myFunction3()" id="dropbtn3" class="dropbtn3">How can I use the Application
-                        Highlighter? ></button>
+                        Highlighter? </button>
                     <h2 id="arrow3"> > </h2>
                 </div>
 
                 <div id="myDropdown3" class="dropdown-content3">
                     <p>After you purchase Shine Premium or Profile Booster, application highlighter will be
                         automatically activated for 15 days for Profile Booster, 30 days for Shine
-                        <br> Premium Basic and for 60 days for Shine Premium Pro. With application highlighter,
+                        Premium Basic and for 60 days for Shine Premium Pro. With application highlighter,
                         all the jobs you apply will be brought at the top amongst other applicants
-                        <br> and will be highlighted to make you stand out to recruiters, for the validity
+                        and will be highlighted to make you stand out to recruiters, for the validity
                         period of application highlighter.
                     </p>
 
@@ -830,14 +997,14 @@
 
                 <div>
                     <button onclick="myFunction4()" id="dropbtn4" class="dropbtn4">How can I use the Cover
-                        Letter? ></button>
+                        Letter? </button>
                     <h2 id="arrow4"> > </h2>
                 </div>
 
                 <div id="myDropdown4" class="dropdown-content4">
                     <p>After you purchase Shine Premium or Profile Booster, you will get a welcome call from
                         one of our experts. We have a team of experts with extensive experience
-                        <br> in resume and cover letter writing. The expert will help craft a professional
+                        in resume and cover letter writing. The expert will help craft a professional
                         cover letter for you.
                     </p>
 
@@ -849,19 +1016,19 @@
 
                 <div>
                     <button onclick="myFunction5()" id="dropbtn5" class="dropbtn5">How can I use the
-                        Resume Builder? ></button>
+                        Resume Builder? </button>
                     <h2 id="arrow5"> > </h2>
                 </div>
 
                 <div id="myDropdown5" class="dropdown-content5">
                     <p>After you purchase Shine Premium or Profile Booster, your Resume Builder will be
                         automatically activated for 15 days for Profile Booster, 30 days
-                        <br> for Shine Premium Basic and for 60 days for Shine Premium Pro.
+                        for Shine Premium Basic and for 60 days for Shine Premium Pro.
 
-                        <br> You will get an option on the order summary page to build your resume using
+                        You will get an option on the order summary page to build your resume using
                         the resume builder. Select this option to go to resume builder page. Once you
                         land
-                        <br> on the resume builder page you can select a resume template to build your
+                        on the resume builder page you can select a resume template to build your
                         new awesome resume in just 2 steps and start impressing the employers.
                     </p>
 
@@ -875,6 +1042,45 @@
         </div>
     </div>
 
+    <!-- ********************************************Eighth Section******************************************************* -->
+
+    <div id="eighth">
+
+    </div>
+
+
+    <!-- ********************************************Chat function Section******************************************************* -->
+
+
+    <button class="chatbtn" onclick="openForm()"><img
+            src="https://resume.shine.com/_next/image?url=%2Fimages%2Fchat-icon.svg&w=1920&q=75" alt=""></button>
+
+    <div class="chat-popup" id="myForm">
+        <form class="form-container">
+            <div id="tophead">
+                <p>Shine Learning</p>
+                <h2>↗</h2>
+                <button type="button" id="btncancel" class="btn cancel" onclick="closeForm()">➖</button>
+            </div>
+            <div id="imgsection">
+                <img src="https://v2.zopim.com/widget/images/avatar_simple_agent.png" alt="">
+                <div id="twohead">
+                    <h5>Career Counsellor</h5>
+                    <h5>Ask us anything</h5>
+
+                </div>
+
+            </div>
+
+            <label for="msg"><b></b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+
+        </form>
+    </div>
+
+
 </body>
 
 </html>
@@ -882,11 +1088,47 @@
 <script>
 
 
+    const links = document.querySelectorAll("#fifth ul a");
+
+    for (const link of links) {
+        link.addEventListener("click", clickHandler);
+    }
+
+    function clickHandler(e) {
+        e.preventDefault();
+        const href = this.getAttribute("href");
+        const offsetTop = document.querySelector(href).offsetTop;
+
+        scroll({
+            top: offsetTop,
+            behavior: "smooth"
+        });
+    }
+
+    window.onscroll = function () { myFunction() };
+
+    // Get the navbar
+    var navbar = document.getElementById("fifth");
+
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+
+
+
     function myFunction1() {
         document.getElementById("myDropdown1").classList.toggle("show1");
     }
 
-   
+
     window.onclick = function (event) {
         if (!event.target.matches('.dropbtn1')) {
 
@@ -1003,9 +1245,19 @@
             }
 
         }
-        document.getElementById("arrow5").innerText = "<"
 
 
+
+    }
+
+
+
+    function openForm() {
+        document.getElementById("myForm").style.display = "block";
+    }
+
+    function closeForm() {
+        document.getElementById("myForm").style.display = "none";
     }
 
 
