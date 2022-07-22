@@ -260,7 +260,8 @@ ul>li{
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    border: 1px solid gray;
+    border: 1px solid rgb(189, 166, 200);
+    color: rgb(190, 89, 240);;
     background-color: white;
     font-weight: 600;
     font-size: 20px;
@@ -321,7 +322,7 @@ ul>li{
 
 .applicantdiv p{
     font-family: sans-serif;
-    color: gray;
+    color: rgb(203, 193, 193);
     font-size: 14px;
 }
 
@@ -335,9 +336,9 @@ ul>li{
 
 .applicantdiv>ul>li{
     border: none;
-    color: gray;
+    color: rgb(203, 193, 193);
     font-size: 12px;
-    margin: -4px;
+    margin-left: -6px;
     padding-left: 0px;
     
 }
@@ -349,7 +350,9 @@ ul>li{
 }
 .locationj>span{
     font-size: 18px;
-    padding-top: 10px;
+    padding-top: 14px;
+    padding-right: 16px;
+    color: gray;
 }
 .locationj>p{
     margin-left: -40px;
