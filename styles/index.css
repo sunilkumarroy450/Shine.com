@@ -498,7 +498,6 @@ h1{
  .temp{
     width: 350px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin: auto;
     padding: 1px 20px;
 }
 
@@ -556,4 +555,11 @@ h1{
     font-weight: 600;
     padding: 5px 15px;
     color: white;
+}
+
+
+#earlyscrool6>div{
+    display: grid;
+    gap: 50px;
+    transition: 500ms;
 }

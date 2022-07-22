@@ -95,3 +95,119 @@ document.querySelector("#applicantlefts3").addEventListener("click", () => {
     }
     document.querySelector("#earlyscrool3>div").style.marginLeft = `${be3}px`;
 });
+
+let prodappend=(data)=>{
+
+data.forEach((ele)=>{
+
+// main div start 
+let main=document.createElement("div");
+main.setAttribute("class","temp");
+
+// course p start
+
+let course=document.createElement("p")
+course.innerText=ele.course
+
+// course p end
+
+// prod detail div start 
+
+let imgdetail=document.createElement("div");
+
+// img and rating div start 
+
+let imgdiv=document.createElement("div");
+let img=document.createElement("img");
+img.src=ele.img;
+let rating=document.createElement("h4");
+rating.innerText=4.5;
+
+imgdiv.append(img,rating);
+
+// img and rating div end 
+
+
+// detail div start
+let detaildiv=document.createElement("div")
+
+let title=document.createElement("h2");
+title.innerText=ele.title;
+
+let test=document.createElement("p");
+test.innerText=ele.test;
+
+let duration=document.createElement("p");
+duration.innerText=`Duration: ${ele.time} Hour | Module:Online`;
+
+let price=document.createElement("h3");
+price.innerHTML=`<span class="material-symbols-outlined">currency_rupee</span>`
+price.innerText=ele.price;
+
+detaildiv.append(title,test,duration,price);
+// detaildiv append done 
+imgdetail.append(imgdiv,detaildiv);
+
+// imgdetail div append done 
+
+let hr=document.createElement("hr");
+
+// button div start 
+
+let buttondiv=document.createElement("div");
+let button1=document.createElement("button");
+button1.innerText="Explore";
+
+let button2=document.createElement("button");
+button2.innerText="Buy Now";
+
+button2.addEventListener("click",()=>{
+    buy(ele)
+})
+
+buttondiv.append(button1,button2);
+
+main.append(course,imgdetail,hr,buttondiv)
+   
+   document.querySelector("#earlyscrool6>div").append(main);
+});
+    
+}
+
+let data=[
+    {course:"course",img:"https://static1.shine.com/l/m/product_image/images_all/1640851375_8085.png",title:"Backend Devloper In Java",test:"TestPrep Training ",time:51,price:12999},
+    {course:"School",img:"https://static1.shine.com/l/m/product_image/images_all/1640851375_8085.png",title:"Backend Devloper In Java",test:"TestPrep Training ",time:51,price:12999},
+    {course:"course",img:"https://static1.shine.com/l/m/product_image/images_all/1640851375_8085.png",title:"Backend Devloper In Java",test:"TestPrep Training ",time:51,price:12999},
+    {course:"course",img:"https://static1.shine.com/l/m/product_image/images_all/1640851375_8085.png",title:"Backend Devloper In Java",test:"TestPrep Training ",time:51,price:12999},
+    {course:"course",img:"https://static1.shine.com/l/m/product_image/images_all/1640851375_8085.png",title:"Backend Devloper In Java",test:"TestPrep Training ",time:51,price:12999}
+
+];
+
+
+
+let be4=0;
+let count=0
+document.querySelector("#applicantrights6").addEventListener("click", () => {
+    if (count<data.length-3) {
+        count++;
+        be4 = be4 + (-415)
+    }
+    document.querySelector("#earlyscrool6>div").style.marginLeft = `${be4}px`;
+});
+
+document.querySelector("#applicantlefts6").addEventListener("click", () => {
+    if (count>0) {
+        count--
+        be4 = be4 + 415
+    }
+    document.querySelector("#earlyscrool6>div").style.marginLeft = `${be4}px`;
+});
+
+prodappend(data);
+
+let cartdataLs=JSON.parse(localStorage.getItem("buycart")) || [];
+
+let buy=(ele)=>{
+cartdataLs.push(ele)
+localStorage.setItem("buycart",JSON.stringify(cartdataLs));
+}
