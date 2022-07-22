@@ -5,45 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        #payment{
+    <style> 
+       #pay{
             border:1px solid grey;
             width:24%;
             margin:auto;
             padding:15px;
             height:600px;
-            /* gap:5px; */
-        }
-        
-        #scroll{
-            overflow-x: scroll;
-            /* overflow-y: scroll; */
-            height:400px;
-
-        }
-        .phone{
-            border:1px solid rgb(199, 196, 196);
-            display:flex;
-            height:65px;
-            /* border:none; */
-        }
-        img{
-        height:25px;
-        /* margin:auto; */
-        padding-top:20px;
-        /* border: 1px solid green; */
-        }
-        #sign{
-            display:flex;
-            margin-left:200px;
-        }
-        #sig{
-            display:flex;
-            border:1px solid rgb(197, 197, 197);
-            justify-content:space-around;
-        }
-        #razor{
-            border:1px solid grey;
+             /* gap:5px; */
         }
         #one{
             background-color: rgba(101, 101, 252, 0.76);
@@ -52,28 +21,74 @@
         #two{
             padding:6px;
             background-color: rgba(8, 8, 223, 0.76);
-            /* border:none; */
+            border:none;
 
-        }
-
-        #razor{
-            padding:0px;
-            background-color: rgba(201, 243, 250, 0.76);
-            border:1px solid grey;
-
-        }
-        #sel{
-            background-color: rgb(90, 90, 252);
-            color:white;
         }
         a{
             border:none;
             color:rgb(27, 27, 27);
+        } 
+        #sel{
+            background-color: rgb(90, 90, 252);
+            color:white;
         }
+        #sig{
+            display:flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: rgb(229, 252, 244);
 
+        }
+       #check{
+            display:flex;
+        }
+        #final{
+            padding: 20px;
+            width:100%;
+            background-color: blue;
+            size:25px;
+        }
+        #card{
+            display:grid;
+            grid-template-columns:repeat(2,1fr);
+            gap:10px;
+        }
+        .a{
+            width:100%
+        }
+        .b{
+            width:28%;
+        }
+        #fpaid{
+            background-color: rgb(117, 117, 252);
+            text-align: center;
+            margin:auto;
+            padding:10px;
+            /* margin-bottom:200px; */
+            color:white;
+        }
+        #fpaid:hover{
+            background-color: rgb(93, 93, 252);}
+
+        p{
+            color:#4f4f4f;
+        }
+        #check>p{
+            margin-bottom:25px;
+
+        }
+        #card_section{
+            display:none;
+        }
+      
+
+      
+     
     </style>
+    <link rel="stylesheet" href="./styles/payment.css">
 </head>
 <body>
+
     <div id="payment">
         <div id="one">
             <h1>HT Media</h1>
@@ -91,7 +106,7 @@
         </div>
         <div id="scroll">
             <div id="razor">
-                <h3>Razorpay Trusted Business</h3>
+                <h4>Razorpay Trusted Business</h4>
             </div>
             <div id=sig>
                 <h2 id="mob">mob |</h2>
@@ -116,7 +131,7 @@
                 <div>
                     <div class="phone">
                         <img src="https://cdn.razorpay.com/app/googlepay.svg" alt="">
-                        <h3><a href="card.html">Card</a></h3>
+                        <h3 id="cardpay">Card</h3>
                         <h2 id="sign"></h2>
                     </div>
                     <div class="phone">
@@ -141,11 +156,51 @@
                     </div>
                                     
                 </div>
-
-
+                
+                
             </div>
+        </div>
+        <h2 id="fpay">Pay</h2>
+    </div>
+    <!-- //card section -->
+
+    <div id="card_section">
+    <div id="pay">
+        <div id="one">
+            <h1>HT Media</h1>
+            <p>order description</p>
+        <h1 id="lpay">0</h1>
+       </div>
+        <div id="two">
+          <select name="" id="sel">
+            <option value="">Hindi</option>
+            <option value="">English</option>
+            <option value="">Bhojpuri</option>
+            <option value="">Russian</option>
+            <!-- <input type="text"> -->
+          </select>
+        </div>
+        <div id="sig">
+            <div id="cback"> >Card</div>
+            <div>phone</div>
+        </div>
+        <h3>Add New Card</h3>
+        <div id="card">
+            <input type="text" class="a" placeholder="Card Number">
+            <input type="date" class="b" placeholder="Expiry">
+            <input type="text" class="a" placeholder="Card Holder's name">
+            <input type="number" class="b" placeholder="CVV">
+        </div>
+        <div id="check">
+            <input type="checkbox">
+            <p id="tit">Save card securely for future payments
+                Know More</p>
+        </div>
+        <h2 id="fpaid">Pay</h2>
+         </button>
         </div>
     </div>
     
 </body>
 </html>
+<script src="./script/payment.js"></script>
