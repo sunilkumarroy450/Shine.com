@@ -438,5 +438,122 @@ h1{
 }
 
 #aspiring{
-    margin-top: 60px;
+    margin-top: 60px;  
+}
+#aspiring>div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+    width: 700px;
+    gap: 30px;
+}
+
+#aspiring>div>div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 1px solid; */
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(83, 79, 79);
+    padding: 20px 50px;
+    cursor: pointer;
+}
+.explorar>div{
+    width: fit-content;
+    margin: auto;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: rgb(56, 53, 53);
+    margin-top: 40px;
+}
+.dream{
+    display: grid;
+    padding: 0px 30px;
+    margin-top: 50px;
+    grid-template-columns: 60% 40%;
+    background-color: #f2f3f8;
+}
+
+.dream>div{
+    /* border: 1px solid; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dream>div h1{
+    font-size: 40px;
+}
+.dream>div a{
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: darkorange;
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+ .temp{
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    padding: 1px 20px;
+}
+
+.temp>div:nth-child(2){
+    display: grid;
+    grid-template-columns: 15% 85%;
+    gap: 30px;
+}
+.temp>div p{
+    margin: 0px;
+    font-family: sans-serif;
+    color: rgb(84, 83, 83);
+    font-size: 12px;
+}
+.temp h3{
+    font-family: sans-serif;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.temp h3>span{
+    font-weight: 600;
+   padding: 0px;
+    font-size: 18px;
+}
+.temp img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.temp h2{
+    margin-top: 0px;
+    font-family: sans-serif;
+    height: 45px;
+    font-size: 20px;
+}
+
+.temp>div:last-child{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px;
+}
+.temp>div:last-child>button:first-child{
+    border: none;
+    background-color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: blueviolet;
+}
+.temp>div:last-child>:last-child{
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 5px 15px;
+    color: white;
 }
