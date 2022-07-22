@@ -213,6 +213,9 @@
     width: 250px;
     border-radius: 5px;
 }
+#fourth-2>button+button:hover{
+  background-color: #603eb1;
+}
 
 #fourth-2>h2+button {
     background-color: #fba504;
@@ -223,6 +226,10 @@
 
 #fourth-2>h2>strike {
     color: #505e6b;
+}
+
+#buy_btn:hover{
+  background-color:#b9872a; ;
 }
 
 /* ****************************************Fifth Section Starts From Here******************************************* */
@@ -696,3 +703,281 @@
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+.container {
+    padding: 60px;
+  }
+  #assesment {
+    /* width: 80%; */
+    /* border: 1px solid; */
+    height: 125px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  #assesment > div {
+    width: 115px;
+    /* border: 1px solid; */
+    margin: 10px;
+  }
+
+  h4 {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 5px;
+  }
+  #crousalheading{
+        text-align: left;
+        margin-left: 5%;
+      }
+
+  #assesment > div > div {
+    width: 50%;
+    background-color: aqua;
+    height: 55%;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* #assesment>div:first-child>div{
+position: relative;
+
+}
+#assesment>div:first-child>div>{
+position: absolute;
+top: 0;
+right: 0;
+} */
+  #aslogo1 {
+    font-size: 30px;
+    font-weight: 200;
+    color: rgb(23, 134, 134);
+  }
+  #aslogo2 {
+    font-size: 30px;
+    font-weight: 200;
+    color: rgb(202, 54, 0);
+  }
+  #aslogo3 {
+    font-size: 30px;
+    font-weight: 200;
+    color: rgb(23, 134, 134);
+  }
+
+  #assesment > div:nth-child(2) > div {
+    background-color: pink;
+  }
+
+  #cooladnco > ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  ul > li {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 5px 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgb(99, 99, 157);
+  }
+
+  .cool {
+    background-color: rgb(173, 199, 241);
+    color: black;
+  }
+
+  #coolplace {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+
+  #coolplace > div {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  #coolplace > div > div:first-child > img {
+    width: 100%;
+  }
+  #coolplace > div > div:last-child > img {
+    width: 55%;
+    display: block;
+    margin: auto;
+  }
+
+  #topcomp {
+    display: none;
+    align-items: center;
+  }
+
+  #scrool {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  #scrool > div {
+    display: grid;
+    grid-template-columns: repeat(7, 165px);
+    grid-template-rows: repeat(2, 80px);
+    gap: 20px;
+    padding: 0px 5px;
+    transition: 500ms;
+  }
+
+  #scrool > div > div {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 5px;
+    display: flex;
+  }
+
+  #scrool > div > div > img {
+    width: 100%;
+  }
+
+  /* #scrool::-webkit-scrollbar{
+display: none;
+} */
+
+  .crousel1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(189, 166, 200);
+    color: rgb(190, 89, 240);
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  #cooladnco > p {
+    text-align: center;
+    font-family: sans-serif;
+    color: blue;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .container > h1 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  #early {
+    display: flex;
+    align-items: center;
+  }
+  .earlyscrool {
+    width: 90%;
+    /* border: 1px solid; */
+    margin: auto;
+    overflow: hidden;
+    padding: 5px;
+  }
+
+  .earlyscrool > div {
+    display: grid;
+    grid-template-columns: repeat(6, 350px);
+    gap: 20px;
+    transition: 500ms;
+  }
+
+  .applicantdiv {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px 20px 40px 20px;
+    position: relative;
+    /* width: 400px; */
+  }
+
+  .applicantdiv:hover {
+    border: 1px solid rgb(190, 89, 240);
+  }
+  .applicantdiv > div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .applicantdiv > h2 {
+    font-family: sans-serif;
+    margin: -10px 0px;
+  }
+
+  .applicantdiv p {
+    font-family: sans-serif;
+    color: rgb(203, 193, 193);
+    font-size: 14px;
+  }
+
+  .applicantdiv > ul {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-left: 15px;
+    list-style: square;
+  }
+
+  .applicantdiv > ul > li {
+    border: none;
+    color: rgb(203, 193, 193);
+    font-size: 12px;
+    margin-left: -6px;
+    padding-left: 0px;
+  }
+
+  .locationj {
+    width: 55%;
+  }
+  .locationj > span {
+    font-size: 18px;
+    padding-top: 14px;
+    padding-right: 16px;
+    color: gray;
+  }
+  .locationj > p {
+    margin-left: -40px;
+    /* margin-right: -20%; */
+  }
+
+  .apbtn {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    border: none;
+    background-color: white;
+    font-weight: 600;
+    color: rgb(94, 88, 88);
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 14px;
+  }
+  .section {
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(190, 89, 240);
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  .headcrousal {
+    color: rgb(94, 88, 88);
+  }

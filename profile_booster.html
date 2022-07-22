@@ -382,14 +382,14 @@
     <!-- ********************************************Chat function Section******************************************************* -->
 
 
-    <button class="chatbtn" onclick="openForm()"><img
+    <button class="chatbtn"  onclick="openForm()"><img
             src="https://resume.shine.com/_next/image?url=%2Fimages%2Fchat-icon.svg&w=1920&q=75" alt=""></button>
 
     <div class="chat-popup" id="myForm">
         <form class="form-container">
             <div id="tophead">
                 <p>Shine Learning</p>
-                <h2>↗</h2>
+                <h2 id="chatfull">↗</h2>
                 <button type="button" id="btncancel" class="btn cancel" onclick="closeForm()">➖</button>
             </div>
             <div id="imgsection">
@@ -411,16 +411,413 @@
     </div>
 
 
+<!-- ********************************************Crousel function Section******************************************************* -->
+
+
+    <div class="container"> 
+        <h1 id="crousalheading">Reviews</h1>
+        <div id="early">
+          <button id="applicantlefts" class="crousel1"><</button>
+          <div class="earlyscrool" id="earlyscrool1">
+            <div>
+              <div class="applicantdiv">
+                <h2>Good response</h2>
+  
+                <div class="locationj">
+                  <span class="material-symbols-outlined">
+                    <p>5 ⭐ 16 Dec,2020</p>
+                  </span>
+  
+                  <span class="material-symbols-outlined"> </span>
+                </div>
+                <h3 class="headcrousal">
+                  As a fresher, I am recieving more
+                  <br />interview calls after upgrading and <br />boosting my
+                  profile on shine.com
+                </h3>
+  
+                <button class="apbtn">Satya</button>
+              </div>
+  
+              <div class="applicantdiv">
+                <h2>Value Addition</h2>
+  
+                <div class="locationj">
+                  <span class="material-symbols-outlined">
+                    <p>4 ⭐ 28 Feb,2022</p>
+                  </span>
+  
+                  <span class="material-symbols-outlined"> </span>
+                </div>
+                <h3 class="headcrousal">
+                  All the services provided in the combo
+                  <br />add great value to your profile
+                </h3>
+                <button class="apbtn">Chaya</button>
+              </div>
+  
+              <div class="applicantdiv">
+                <h2>Resume Builder</h2>
+  
+                <div class="locationj">
+                  <span class="material-symbols-outlined">
+                    <p>5 ⭐ 10 Jan,2021</p>
+                  </span>
+  
+                  <span class="material-symbols-outlined"> </span>
+                </div>
+                <h3 class="headcrousal">
+                  HT media Content writers are good for
+                  <br />visual resume as well as professional <br />experience
+                  resume
+                </h3>
+                <button class="apbtn">Manoj Chaturvedi</button>
+              </div>
+  
+              <div class="applicantdiv">
+                <h2>Good Package</h2>
+  
+                <div class="locationj">
+                  <span class="material-symbols-outlined">
+                    <p>5 ⭐ 16 Dec,2020</p>
+                  </span>
+  
+                  <span class="material-symbols-outlined"> </span>
+                </div>
+                <h3 class="headcrousal">
+                  As a fresher, I am recieving more
+                  <br />interview calls after upgrading and <br />boosting my
+                  profile on shine.com
+                </h3>
+                <button class="apbtn">Sri Kumar</button>
+              </div>
+  
+              <div class="applicantdiv">
+                <h2>Good response</h2>
+  
+                <div class="locationj">
+                  <span class="material-symbols-outlined">
+                    <p>5 ⭐ 16 Dec,2020</p>
+                  </span>
+  
+                  <span class="material-symbols-outlined"> </span>
+                </div>
+                <h3 class="headcrousal">
+                  As a fresher, I am recieving more
+                  <br />interview calls after upgrading and <br />boosting my
+                  profile on shine.com
+                </h3>
+                <button class="apbtn">Satya</button>
+              </div>
+  
+              <div class="applicantdiv">
+                <h2>Good response</h2>
+  
+                <div class="locationj">
+                  <span class="material-symbols-outlined">
+                    <p>5 ⭐ 16 Dec,2020</p>
+                  </span>
+  
+                  <span class="material-symbols-outlined"> </span>
+                </div>
+                <h3 class="headcrousal">
+                  As a fresher, I am recieving more
+                  <br />interview calls after upgrading and <br />boosting my
+                  profile on shine.com
+                </h3>
+                <button class="apbtn">Satya</button>
+              </div>
+            </div>
+          </div>
+          <button id="applicantrights" class="crousel1">></button>
+        </div>
+      </div> -->
+
 </body>
 
 </html>
 
-<script src="./script/profile_booster.js" type="module">
+<script >
+    function toggleText() {
 
 
- 
-    
+var points =
+    document.getElementById("points");
+
+var showMoreText =
+    document.getElementById("moreText");
+
+var buttonText =
+    document.getElementById("textButton");
 
 
+if (points.style.display === "none") {
+
+    showMoreText.style.display = "none";
+
+
+    points.style.display = "inline";
+
+
+    buttonText.innerHTML = "Read More";
+}
+
+else {
+
+    showMoreText.style.display = "inline";
+
+
+    points.style.display = "none";
+
+
+    buttonText.innerHTML = "Read Less";
+}
+}
+
+
+const links = document.querySelectorAll("#fifth ul a");
+
+for (const link of links) {
+link.addEventListener("click", clickHandler);
+}
+
+function clickHandler(e) {
+e.preventDefault();
+const href = this.getAttribute("href");
+const offsetTop = document.querySelector(href).offsetTop;
+
+scroll({
+    top: offsetTop,
+    behavior: "smooth"
+});
+}
+
+window.onscroll = function () { myFunction() };
+
+// Get the navbar
+var navbar = document.getElementById("fifth");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+} else {
+    navbar.classList.remove("sticky");
+}
+}
+
+
+
+function myFunction1() {
+document.getElementById("myDropdown1").classList.toggle("show1");
+}
+
+
+window.onclick = function (event) {
+if (!event.target.matches('.dropbtn1')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content1");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show1')) {
+
+            openDropdown.classList.remove('show1');
+
+        }
+    }
+
+}
+document.getElementById("arrow1").innerText = "<"
+
+
+}
+
+function myFunction2() {
+document.getElementById("myDropdown2").classList.toggle("show1");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+if (!event.target.matches('.dropbtn2')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content2");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show1')) {
+
+            openDropdown.classList.remove('show1');
+
+        }
+    }
+
+}
+document.getElementById("arrow2").innerText = "<"
+
+
+}
+
+
+function myFunction3() {
+document.getElementById("myDropdown3").classList.toggle("show1");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+if (!event.target.matches('.dropbtn3')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content3");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show1')) {
+
+            openDropdown.classList.remove('show1');
+
+        }
+    }
+
+}
+document.getElementById("arrow3").innerText = "<"
+
+
+}
+
+function myFunction4() {
+document.getElementById("myDropdown4").classList.toggle("show1");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+if (!event.target.matches('.dropbtn4')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content4");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show1')) {
+
+            openDropdown.classList.remove('show1');
+
+        }
+    }
+
+}
+document.getElementById("arrow4").innerText = "<"
+
+
+}
+
+function myFunction5() {
+document.getElementById("myDropdown5").classList.toggle("show1");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+if (!event.target.matches('.dropbtn5')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content5");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show1')) {
+
+            openDropdown.classList.remove('show1');
+
+        }
+    }
+
+}
+
+
+
+}
+
+
+
+function openForm() {
+document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+document.getElementById("myForm").style.display = "none";
+}
+
+
+let buy_btn=document.getElementById("buy_btn");
+buy_btn.addEventListener("click",myfun)
+let buy_arr=JSON.parse(localStorage.getItem("buy_cart"))||[];
+function myfun(event){
+event.preventDefault()
+let obj={
+img:"https://static1.shine.com/l/m/product_image/images_all/1642135143_358.png",
+title: "Profile Booster",
+price: 1999,
+
+}
+buy_arr.push(obj);
+localStorage.setItem("buycart",JSON.stringify(buy_arr))
+
+}
+
+
+
+
+
+let b = 0;
+document.querySelector("#applicantrights").addEventListener("click", () => {
+if (b >= -1000) {
+  b = b + -370;
+}
+document.querySelector("#earlyscrool1>div").style.marginLeft = `${b}px`;
+});
+
+document.querySelector("#applicantlefts").addEventListener("click", () => {
+if (b <= -370) {
+  b = b + 370;
+}
+document.querySelector("#earlyscrool1>div").style.marginLeft = `${b}px`;
+});
+
+let b1 = 0;
+document.querySelector("#applicantrights2").addEventListener("click", () => {
+if (b1 >= -1000) {
+  b1 = b1 + -370;
+}
+document.querySelector("#earlyscrool2>div").style.marginLeft = `${b1}px`;
+});
+
+document.querySelector("#applicantlefts2").addEventListener("click", () => {
+if (b1 <= -370) {
+  b1 = b1 + 370;
+}
+document.querySelector("#earlyscrool2>div").style.marginLeft = `${b1}px`;
+});
+
+let be3 = 0;
+document.querySelector("#applicantrights3").addEventListener("click", () => {
+if (be3 >= -1000) {
+  be3 = be3 + -370;
+}
+document.querySelector("#earlyscrool3>div").style.marginLeft = `${be3}px`;
+});
+
+document.querySelector("#applicantlefts3").addEventListener("click", () => {
+if (be3 <= -370) {
+  be3 = be3 + 370;
+}
+document.querySelector("#earlyscrool3>div").style.marginLeft = `${be3}px`;
+});
 
 </script>
+<script>
+    document.getElementById("chatfull").addEventListener("click",function(){
+        window.location.href = "./fullscreenChat.html"
+    })
+</script>
+
+<script src="./script/profile_booster.js"  type="module"></script>
