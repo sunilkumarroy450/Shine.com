@@ -277,7 +277,7 @@ display: none;
 }
 .dropdown00:hover .dropdown-content00{
     display: block;
-    position: absolute;
+    position: fixed;
     border-bottom: 1px solid #865aeb;
 }
 
