@@ -1,3 +1,7 @@
+import {nav,footer} from "../component/navandfootexport.js";
+document.getElementById("navbar").innerHTML=nav();
+document.getElementById("footer").innerHTML=footer();
+
 var data=JSON.parse(localStorage.getItem("buycart")) || [];
 console.log(data)
 append(data);
@@ -58,3 +62,4 @@ function remove(ele,i){
     //localStorage.setItem("totalp",JSON.stringify(four))
     append(data);
 }
+document.querySelector("#cartsection5").innerText=data.length;

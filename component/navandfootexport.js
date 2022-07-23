@@ -41,9 +41,10 @@ let nav=()=>{
                 </div>
             </div>
             <div  id="dropdown2">
-                <img src="https://cdn.iconscout.com/icon/premium/png-128-thumb/shopping-cart-3660737-3051467.png" alt="img2">
+            <img onclick="window.location.href='add.html'" src="https://cdn.iconscout.com/icon/premium/png-128-thumb/shopping-cart-3660737-3051467.png" alt="img2">
+                
                 <div id="dropdown-content2">
-                    <p>0</p>
+                    <p id="cartsection5">0</p>
                 </div>
             </div>
             <div  id="dropdown3">

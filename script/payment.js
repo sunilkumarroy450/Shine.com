@@ -24,7 +24,7 @@ function fun(){
 
     if(card.Number.value==00000000000000 && card.cvv.value==123){
         alert("Payment Sucessfull")
-        window.location="prod.html"
+        window.location="index.html"
     }else{
         alert("Card deatil wrong")
     }
