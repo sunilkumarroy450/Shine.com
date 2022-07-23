@@ -2,8 +2,10 @@
     width:80%;
     /* border: 1px solid green; */
     margin:auto;
-    height:500px;
+    height:600px;
     padding:20px;
+    margin-top: 10px;
+
 
 
 }
@@ -13,6 +15,8 @@
 }
 #add_to_cart{
     width:70%;
+    max-height:600px;
+    overflow: scroll;
     /* border: 1px solid rgb(128, 0, 11); */
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 
@@ -45,7 +49,7 @@ h4{
     justify-content: space-between;
     margin:auto;
 }
-input{
+#coupon1{
     width:68%;
     margin-bottom: 30px;
     border-radius: 5px;
@@ -53,10 +57,10 @@ input{
 
 
 }
-button:hover{
+#new1:hover{
     background-color: rgb(28, 101, 236);
 }
-button{
+#new1{
     width:28%;
     border-radius: 5px;
     margin-bottom: 30px;
@@ -117,9 +121,11 @@ h3>span{
 color:black;
 }
 #title{
-border:1px solid green;
+/* border:1px solid green; */
 width:76%;
 margin:auto;
+margin-top: 20px;
+font-family: sans-serif;
 }
 #new{
 
@@ -149,3 +155,14 @@ background-color: grey;
     text-decoration:none;
     
    }
+
+   #navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+#footer{
+    margin-top:60px;
+}

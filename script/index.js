@@ -1,3 +1,11 @@
+import {nav,footer} from "../component/navandfootexport.js"
+
+document.querySelector("#navbar").innerHTML=nav();
+document.querySelector("#footer").innerHTML=footer();
+
+
+
+
 let counter = 1;
 let id;
 const settime = (counter) => {
@@ -217,4 +225,7 @@ let cartdataLs=JSON.parse(localStorage.getItem("buycart")) || [];
 let buy=(ele)=>{
 cartdataLs.push(ele)
 localStorage.setItem("buycart",JSON.stringify(cartdataLs));
+window.location="add.html"
 }
+
+document.querySelector("#cartsection5").innerText=cartdataLs.length;

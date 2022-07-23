@@ -9,6 +9,7 @@ document.getElementById("cback").addEventListener("click",()=>{
     document.querySelector("#payment").style.display="block"
 })
 
+
 //pay 
 let doc=JSON.parse(localStorage.getItem("final"))
 document.getElementById("lpay").innerHTML=doc+" "+"fee";
@@ -23,7 +24,7 @@ function fun(){
 
     if(card.Number.value==00000000000000 && card.cvv.value==123){
         alert("Payment Sucessfull")
-        window.location="prod.html"
+        window.location="index.html"
     }else{
         alert("Card deatil wrong")
     }

@@ -4,75 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/prod.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <title>Product</title>
 </head>
 <body>
-    <h3>Please check your cart</h3>
-    <div id="container"></div>
-    
+    <div id="navbar"></div>
+
+    <div id="prod">
+
+    </div>
+
+    <div id="footer"></div>
 </body>
 </html>
-<script>
-    var obj=[
-        {
-            img:"https://static1.shine.com/l/m/product_image/images_all/1640851637_4621.png",
-
-            title:"Backend Developer in Node.js",
-            rating:"4.5",
-            des:"test",
-            price:12999,
-        },
-        {
-            img:"https://static1.shine.com/l/m/product_image/images_all/1640851637_4621.png",
-
-            title:"Backend Developer in Node.js",
-            rating:"4.5",
-            des:"test",
-            price:12999,
-        },  {
-            img:"https://static1.shine.com/l/m/product_image/images_all/1640851637_4621.png",
-
-            title:"Backend Developer in Node.js",
-            rating:"4.5",
-            des:"test",
-            price:12999,
-        },
-    ]
-    var arr=JSON.parse(localStorage.getItem("niraj")) || [];
-   append(obj);
-    function append(obj){
-      obj.forEach(function(ele){
-       
-        var div=document.createElement("div");
-        var img=document.createElement("img");
-        img.src=ele.img;
-        var title=document.createElement("h2");
-        title.innerText=ele.title;
-        var des=document.createElement("p");
-        des.innerText=ele.test;
-        var rating=document.createElement("p");
-        rating.innerText=ele.rating;
-        var price=document.createElement("h3");
-        price.innerText=ele.price;
-        
-
-        var btn=document.createElement("button");
-        btn.innerText="buy"
-        btn.addEventListener("click",function(){
-            add(ele)
-        })
-        div.append(img,title,des.rating,price,btn);
-        
-        var con=document.getElementById("container");
-        con.append(div)
-      })
-
-    }
-    function add(ele){
-        arr.push(ele);
-        console.log(ele)
-        //console.log(arr)
-        localStorage.setItem("niraj",JSON.stringify(arr));
-
-    }
-</script>
+<script src="./script/prod.js" type="module"></script>

@@ -1,0 +1,18 @@
+
+#prod{
+    display: grid;
+    justify-content: center;
+
+    grid-template-columns: repeat(3,350px);
+    gap: 50px;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+#footer{
+    margin-top: 20px;
+}
