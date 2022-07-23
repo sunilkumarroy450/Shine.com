@@ -499,6 +499,7 @@ h1{
     width: 350px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 1px 20px;
+    cursor: pointer;
 }
 
 .temp>div:nth-child(2){
@@ -568,7 +569,7 @@ h1{
     display: grid;
     grid-template-columns:35% 60%;
     padding: 3%;
-    border: 1px solid;
+    background-color: rgb(248, 246, 246);
 }
 .assessment1>div:last-child{
     display: grid;
@@ -576,11 +577,45 @@ h1{
     align-items: center;
     font-size: large;
     padding: 30px;
-    border: 1px solid;
 }
-.assessment1>div:last-child>div{
-    
+.assessment1>div:last-child p{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: gray;
+}
+.assessment1>div:last-child>div:last-child{
+    display: flex;
+    justify-content: center;
+    margin-top: -70px;
+    gap: 20px;
+}
+
+.assessment1>div:last-child>div>a{
+    width: 170px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: orange;
+    color: white;
+}
+.assessment1>div:last-child>div>a:last-child{
+    background-color: rgb(155, 68, 236);
 }
 .assessment>div:first-child>img{
 width: 100%;
+}
+
+#producttype{
+    display: flex;
+    gap: 15px;
+}
+#producttype>p{
+   cursor: pointer;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
 }
