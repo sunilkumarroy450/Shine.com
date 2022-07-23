@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+} 
+
+#firstDiv00 {
+    /* border: 5px solid red; */
+    height: 278px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fafaff;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.classDiv00 {
+    /* border: 2px solid teal; */
+    height: 80%;
+    width: 180px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    margin-left: 70px;
+
+}
+
+#shineLogoFooter00 img {
+    height: 80%;
+    width: 80px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#shineLogoFooter00 h3 {
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 4px;
+    color: #505e6b;
+}
+
+#playStoreIconDiv00 {
+    margin-top: 40px;
+}
+
+#playStoreIconDiv00 h2 {
+    font-weight: 570;
+    font-size: 14px;
+    color: #505e6b;
+}
+
+#playStoreIcon00 img {
+    height: 30px;
+    margin-top: 20px;
+}
+
+#playStoreIcon00>img+img {
+    margin-left: 20px;
+}
+
+.classDiv00>h3 {
+    font-weight: 600;
+    font-size: 13px;
+    color: #38404c;
+    /* word-spacing: 2px; */
+    letter-spacing: 0.5px;
+}
+
+.classDiv00>p {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #8652ff;
+    cursor: pointer;
+    letter-spacing: 0.3px;
+}
+
+#footerIcon00 {
+    /* border: 1px solid ; */
+    margin-top: 40px;
+    width: 60%;
+    justify-content: space-between;
+
+}
+
+#footerIcon00 img {
+    width: 22px;
+}
+
+#footerIcon00>img+img {
+    margin-left: 12px;
+}
+
+#extraDiv00 {
+    /* border: 1px solid blue; */
+    width: 140px;
+}
+
+#extraDiv00 img {
+    width: 50px;
+    margin-top: 227px;
+    margin-left: 80px;
+}
+
+#secondDiv22 {
+    /* border: 1px solid; */
+    height: 90px;
+    display: flex;
+    background-color: #fafaff;
+    box-shadow: rgba(255, 255, 255, 0.02) 0px 1px 3px 0px, rgba(171, 188, 205, 0.15) 0px 0px 0px 1px;
+}
+
+#foo11 {
+    height: 50%;
+    width: 78%;
+    /* border: 1px solid red; */
+    margin-left: 84px;
+    display: flex;
+    margin-top: 30px;
+}
+
+#foo11 a {
+    font-size: 12px;
+    font-weight: 500;
+    word-spacing: 5px;
+    color: #505e6b;
+    font-family: sans-serif;
+}
+
+#foo22 {
+    height: 50%;
+    /* border: 1px solid red; */
+    width: 120px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#foo22 p {
+    font-size: 12px;
+    font-weight: 500;
+    word-spacing: 5px;
+    color: #505e6b;
+    font-family: sans-serif;
+    line-height: 18px;
+}

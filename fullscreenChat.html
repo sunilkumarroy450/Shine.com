@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fullscreenChat</title>
+    <link rel="stylesheet" href="./styles/fullscreenChat.css">
+
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+        
+    
+</head>
+<body>
+
+    <div id="navbar"></div>
+    
+
+<div class="chat-popup" id="myForm">
+    <form class="form-container">
+        <div id="tophead">
+            <p>Shine Learning</p>
+            <h2 id="chatfull">↗</h2>
+            <button type="button" id="btncancel" class="btn cancel" onclick="closeForm()">➖</button>
+        </div>
+        <div id="imgsection">
+            <img src="https://v2.zopim.com/widget/images/avatar_simple_agent.png" alt="">
+            <div id="twohead">
+                <h5>Career Counsellor</h5>
+                <h5>Ask us anything</h5>
+
+            </div>
+
+        </div>
+
+        <label for="msg"><b></b></label>
+        <textarea placeholder="Type message.." name="msg" required></textarea>
+
+        <button type="submit" class="btn">Send</button>
+
+    </form>
+</div>
+
+<div id="footer"></div>
+</body>
+</html>
+<script src="./script/fullscreenChat.js" type="module"></script>

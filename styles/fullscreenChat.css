@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.chatbtn {
+
+    color: white;
+
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    border-radius: 50%;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+    display: flex;
+    /* position: fixed; */
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* Add styles to the form container */
+.form-container {
+    min-width: 60%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
+    
+    background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 250px;
+    
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit/send button */
+/* .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    
+    border: none;
+    cursor: pointer;
+   
+    margin-bottom: 10px;
+    opacity: 0.8;
+} */
+
+/* Add a red background color to the cancel button */
+
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+
+#tophead {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px 10px 0px 0px;
+    justify-content:center;
+    
+    height: 8px;
+    padding: 10px;
+    align-items: center;
+    background-color: #2866A9;
+   
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(228, 227, 227, 0.87);
+}
+#tophead>h2{
+    margin-left: 42%;
+    margin-right: 20px;
+    
+}
+#tophead>button{
+    background-color: #2866A9;
+    border: none;
+}
+
+#imgsection {
+    display: flex;
+    margin: auto;
+    gap: 15px;
+
+}
+
+#imgsection>img {
+    width: 50px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 10px;
+    margin-top: -6px;
+    background-color: white;
+}
+
+#twohead {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#twohead>h5 {
+    margin-top: -0px;
+}
+
+#twohead>h5:nth-child(2) {
+    margin-top: -20px;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}

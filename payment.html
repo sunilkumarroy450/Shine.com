@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment.html</title>
+    <style> 
+    </style>
+    <link rel="stylesheet" href="./styles/payment.css">
+</head>
+<body>
+
+    <div id="payment">
+        <div id="one">
+            <h1>HT Media</h1>
+            <p>Order Description</p>
+        <h1 id="lpay">0</h1>
+       </div>
+        <div id="two">
+          <select name="" id="sel">
+            <option value="">English</option>
+            <option value="">Hindi</option>
+            <option value="">Bhojpuri</option>
+            <option value="">Russian</option>
+            <!-- <input type="text"> -->
+          </select>
+        </div>
+        
+        <div id="scroll">
+            <div id="razor">
+                <h4>Razorpay Trusted Business</h4>
+            </div>
+            <div id=sig>
+                <h2 id="mob">Mob |</h2>
+                <h2 id="gmail">gmail</h2>
+            </div>
+            <div>
+                <h4>PREFERRED PAYMENT METHODS</h4>
+                <div class="phone">
+                    <img src="https://cdn.razorpay.com/checkout/phonepe.png" alt="">
+                    <h3>UPI-PhonePe</h3>
+                    <h2 id="sign">></h2>
+                </div>
+                <div class="phone">
+                    <div>
+                        <img src="https://cdn.razorpay.com/app/googlepay.svg" alt="">
+                    </div>
+                    <div><h3>UPI-Google-Pay</h3></div>
+                    <h2 id="sign">></h2>
+                </div>
+                
+            </div>
+            <div>
+                <h4>CARDS, UPI & MORE</h4>
+                <div>
+                    <div class="phone">
+                        <img src="https://cdn.razorpay.com/app/googlepay.svg" alt="">
+                        <h3 id="cardpay">Card</h3>
+                        <h2 id="sign"></h2>
+                    </div>
+                    <div class="phone">
+                        <img src="https://cdn.razorpay.com/app/googlepay.svg" alt="">
+                        <h3>UPI/QR</h3>
+                        <h2 id="sign"></h2>
+                    </div>
+                    <div class="phone">
+                        <img src="https://cdn.razorpay.com/app/googlepay.svg" alt="">
+                        <h3>Net</h3>
+                        <h2 id="sign"></h2>
+                    </div>
+                    <div class="phone">
+                        <img src="https://cdn.razorpay.com/app/googlepay.svg" alt="">
+                        <h3>Wallet</h3>
+                        <h2 id="sign"></h2>
+                    </div>
+                    <div class="phone">
+                        <img src="https://cdn.razorpay.com/app/googlepay.svg" alt="">
+                        <h3>EMI</h3>
+                        <h2 id="sign"></h2>
+                    </div>
+                                    
+                </div>
+                
+                
+            </div>
+        </div>
+        <h2 id="fpay">Pay</h2>
+    </div>
+    <!-- //card section -->
+
+    <div id="card_section">
+    <div id="pay">
+        <div id="one">
+            <h1>HT Media</h1>
+            <p>order description</p>
+        <h1 id="ppay">0</h1>
+       </div>
+        <div id="two">
+          <select name="" id="sel">
+            <option value="">Hindi</option>
+            <option value="">English</option>
+            <option value="">Bhojpuri</option>
+            <option value="">Russian</option>
+            <!-- <input type="text"> -->
+          </select>
+        </div>
+        <div id="sig">
+            <div id="cback">< Card</div>
+            <div>phone</div>
+        </div>
+        <h3>Add New Card</h3>
+        <form id="card">
+            <input type="text" class="a" placeholder="Card Number" name="Number" >
+            <input type="date" class="b" placeholder="Expiry" nam="">
+            <input type="text" class="a" placeholder="Card Holder's name">
+            <input type="number" class="b" placeholder="CVV" name="cvv">
+            <div id="check">
+                <input type="checkbox">
+                <p id="tit">Save card securely for future payments
+                    Know More</p>
+                </div>
+            <input type="submit"  id="fpaid"></input>
+        </form>
+         
+        </div>
+    </div>
+    
+</body>
+</html>
+<script src="./script/payment.js"></script>

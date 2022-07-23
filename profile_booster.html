@@ -9,241 +9,24 @@
         href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Montserrat:wght@100&family=PT+Sans:wght@400&display=swap"
         rel="stylesheet">
 
-        <link rel="stylesheet" href="./styles/profile_booster.css">
+    <link rel="stylesheet" href="./styles/profile_booster.css">
+    <link rel="stylesheet" href="./navbar.css">
+<link rel="stylesheet" href="./styles/footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <style>
-        * {
-            font-family: 'PT Sans', sans-serif;
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    
 
-        }
-
-        #first {
-            display: flex;
-            background-color: #ecf7fd;
-            margin: auto;
-            justify-content: center;
-            align-items: center;
-            gap: 90px;
-            padding: 20px;
-            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-
-        }
-
-        #showmoretexts {
-            color: #38404c;
-            font-size: 15px;
-        }
-
-        #textButton {
-            border: transparent;
-            color: #9060ff;
-            font-weight: bolder;
-            background-color: #ecf7fd;
-            font-size: 16px;
-        }
-
-        /* **************************************Second section starts from here************************************** */
-        #second-1>div>img {
-            width: 20px;
-            height: 20px;
-
-        }
-
-        #second {
-
-            display: flex;
-            flex-direction: column;
-            margin: auto;
-            margin-top: 40px;
-            width: 90%;
-
-
-        }
-
-        #s0 {
-
-            width: 90%;
-
-            display: flex;
-            flex-direction: column;
-            margin: auto;
-            justify-content: center;
-        }
-
-
-        #second-1 {
-
-            width: 90%;
-            display: flex;
-            flex-direction: column;
-            margin: auto;
-            justify-content: center;
-            align-items: center;
-            box-shadow: rgba(54, 53, 53, 0.4) 0px 5px 10px;
-            color: #505e6b;
-
-        }
-
-        #second-1>div {
-            width: 90%;
-            border: 0.5px solid rgb(235, 225, 225);
-            border-top-style: none;
-            border-right-style: none;
-            border-bottom-style: solid;
-            border-left-style: none;
-            display: grid;
-            grid-template-columns: 6fr 1fr 1fr;
-
-            justify-content: center;
-            align-items: center;
-
-
-        }
-
-        /* *********************************Third Section Starts From Here*********************************************** */
-
-
-        #third {
-            display: flex;
-            flex-direction: column;
-
-
-            width: 90%;
-            margin: auto;
-            margin-top: 50px;
-
-            justify-content: center;
-
-        }
-
-        #third-top {
-            display: flex;
-            flex-direction: column;
-            background-color: #fafaff;
-            box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-            width: 90%;
-            margin: auto;
-
-
-            justify-content: center;
-
-        }
-
-        #third-1,
-        #third-2 {
-            display: flex;
-
-            width: 90%;
-            margin: auto;
-            gap: 20px;
-        }
-
-        #third-2 {
-            padding: 0px 0px 30px 0px;
-        }
-
-        #third-2>button {
-            background-color: white;
-            border: 0.5px solid rgb(235, 225, 225);
-            border-radius: 3px;
-            padding: 10px;
-            font-size: 15px;
-            font-family: sans-serif;
-        }
-
-        /* **************************************Fourth Section Starts From Here******************************************* */
-
-        #fourth {
-            display: flex;
-            flex-direction: column;
-
-
-            width: 90%;
-            margin: auto;
-            margin-top: 50px;
-
-            justify-content: center;
-        }
-
-        #fourth-top {
-            display: flex;
-            flex-direction: column;
-            background-color: #ecf7fd;
-            box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-            width: 90%;
-            margin: auto;
-            padding: 47px 0px 47px 0px;
-
-            justify-content: center;
-
-        }
-
-        #fourth-1 {
-            display: flex;
-            flex-direction: column;
-            width:130px;
-           
-            margin-left: 5%;
-            background-color: white;
-            justify-content: center;
-            align-items: center; 
-
-        }
-
-        #fourth-1>img {
-            width: 50px;
-            
-        }
-
-
-        #fourth-2 {
-            display: flex;
-            align-items: center;
-            width: 90%;
-            margin: auto;
-            gap: 20px;
-        }
-
-       
-
-        #fourth-2>button {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 18px;
-            font-weight: 800;
-            background-color: white;
-            border: 0.5px solid rgb(235, 225, 225);
-            border-radius: 3px;
-            padding: 6px;
-            font-family: sans-serif;
-            text-align: center;
-
-        }
-
-        #fourth-2>button+button {
-            background-color: #9060ff;
-            color: white;
-            width: 250px;
-            border-radius: 5px;
-        }
-
-        #fourth-2>h2+button {
-            background-color: #fba504;
-            color: white;
-            width: 150px;
-            border-radius: 5px;
-        }
-
-        #fourth-2>h2>strike{
-            color: #505e6b;
-        }
-        
-    </style>
+   
 </head>
 
 <body>
     <!-- ******************************************FIRST SECTION*********************************************************** -->
+    <div id="navbar">
+
+    </div>
+    
+    
     <div id="first">
 
 
@@ -413,7 +196,7 @@
                     <strike style="font-family: sans-serif;">₹2999</strike>
                     <h2 style="color: rgb(98, 163, 24); margin-left: -12px;">(33% OFF)</h2>
                 </h2>
-                <button>Buy Now</button>
+                <button id="buy_btn" onclick="window.location.href= 'add.html'" >Buy Now</button>
                 <button>📞Talk to Expert</button>
             </div>
 
@@ -421,15 +204,641 @@
 
     </div>
 
+    <!-- ********************************************Fifth Section******************************************************* -->
+
+    <div id="fifth">
+        <div id="fifth-1">
+
+            <ul>
+
+                <h3>
+                    <a href="#sixth">How It Works</a>
+                </h3>
+                <h3>
+                    <a href="#seventh">FAQs</a>
+                </h3>
+                <h3>
+                    <a href="#eighth">Reviews</a>
+                </h3>
+
+            </ul>
+
+
+        </div>
+    </div>
+
+    <!-- ********************************************Sixth Section******************************************************* -->
+
+    <div id="sixth">
+        <div id="sixth-top">
+
+            <div id="sixth-1">
+                <h1>How It Works?</h1>
+            </div>
+
+            <div id="sixth-2">
+                <div>
+
+                    <img src="https://static1.shine.com/l/m/section/subsection/product/1643816737_9560.png" alt="">
+                    <h3>Place Order</h3>
+                    <p>Place order and upload your latest resume</p>
+                </div>
+
+                <div>
+                    <img src="https://static1.shine.com/l/m/section/subsection/product/1643816793_860.png" alt="">
+                    <h3>Profile Featured</h3>
+                    <p>Profile Highlighted to recruiters and marked as featured profile</p>
+                </div>
+
+                <div>
+                    <img src="https://static1.shine.com/l/m/section/subsection/product/1643725080_8765.png" alt="">
+                    <h3>Application Highlighted</h3>
+                    <p>Apply to jobs & stand out among other applicants through highlighting your job application</p>
+                </div>
+
+                <div>
+                    <img src="https://static1.shine.com/l/m/section/subsection/product/1643816837_5782.png" alt="">
+                    <h3>Interview calls</h3>
+                    <p>10X more chances to get a call from recruiter</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ********************************************Seventh Section******************************************************* -->
+
+
+    <div id="seventh">
+        <div id="seventh-1">
+            <div id="se0" style="border: none;">
+
+                <h1>
+                    FAQs
+
+                </h1>
+            </div>
+
+            <div id="se1" class="dropdown1">
+                <div id="btn1">
+                    <button onclick="myFunction1()" id="dropbtn1" class="dropbtn1">Which all services are included in
+                        Profile Booster?</button>
+                    <h2 id="arrow1"> > </h2>
+                </div>
+
+                <div id="myDropdown1" class="dropdown-content1">
+                    <p>Profile Booster includes Application Highlighter, Featured Profile, Resume Builder and Cover
+                        Letter.</p>
+
+                </div>
+            </div>
+            <div id="se2" class="dropdown2">
+
+                <div>
+                    <button onclick="myFunction2()" id="dropbtn2" class="dropbtn2">How can I use the Featured Profile?
+                    </button>
+                    <h2 id="arrow2"> > </h2>
+                </div>
+
+                <div id="myDropdown2" class="dropdown-content2">
+                    <p>After you purchase Shine Premium or Profile Booster, you will get a welcome call from one of
+                        our experts and then your featured profile will be activated for 15 days
+                        for Profile Booster, 30 days for Shine Premium Basic and for 60 days for Shine Premium
+                        Pro. With featured profile, your profile will be highlighted in
+                        recruiter’s search and will be among the first ones to be seen by recruiters every time
+                        you appear in a search, for the validity period of featured profile.
+                    </p>
+
+
+                </div>
+            </div>
+
+            <div id="se3" class="dropdown3">
+
+                <div>
+                    <button onclick="myFunction3()" id="dropbtn3" class="dropbtn3">How can I use the Application
+                        Highlighter? </button>
+                    <h2 id="arrow3"> > </h2>
+                </div>
+
+                <div id="myDropdown3" class="dropdown-content3">
+                    <p>After you purchase Shine Premium or Profile Booster, application highlighter will be
+                        automatically activated for 15 days for Profile Booster, 30 days for Shine
+                        Premium Basic and for 60 days for Shine Premium Pro. With application highlighter,
+                        all the jobs you apply will be brought at the top amongst other applicants
+                        and will be highlighted to make you stand out to recruiters, for the validity
+                        period of application highlighter.
+                    </p>
+
+                </div>
+            </div>
+
+            <div id="se4" class="dropdown4">
+
+                <div>
+                    <button onclick="myFunction4()" id="dropbtn4" class="dropbtn4">How can I use the Cover
+                        Letter? </button>
+                    <h2 id="arrow4"> > </h2>
+                </div>
+
+                <div id="myDropdown4" class="dropdown-content4">
+                    <p>After you purchase Shine Premium or Profile Booster, you will get a welcome call from
+                        one of our experts. We have a team of experts with extensive experience
+                        in resume and cover letter writing. The expert will help craft a professional
+                        cover letter for you.
+                    </p>
+
+
+                </div>
+            </div>
+
+            <div id="se5" class="dropdown5">
+
+                <div>
+                    <button onclick="myFunction5()" id="dropbtn5" class="dropbtn5">How can I use the
+                        Resume Builder? </button>
+                    <h2 id="arrow5"> > </h2>
+                </div>
+
+                <div id="myDropdown5" class="dropdown-content5">
+                    <p>After you purchase Shine Premium or Profile Booster, your Resume Builder will be
+                        automatically activated for 15 days for Profile Booster, 30 days
+                        for Shine Premium Basic and for 60 days for Shine Premium Pro.
+
+                        You will get an option on the order summary page to build your resume using
+                        the resume builder. Select this option to go to resume builder page. Once you
+                        land
+                        on the resume builder page you can select a resume template to build your
+                        new awesome resume in just 2 steps and start impressing the employers.
+                    </p>
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ********************************************Eighth Section******************************************************* -->
+
+    <div id="eighth">
+
+    </div>
+
+
+    <!-- ********************************************Chat function Section******************************************************* -->
+
+
+    <button class="chatbtn"  onclick="openForm()"><img
+            src="https://resume.shine.com/_next/image?url=%2Fimages%2Fchat-icon.svg&w=1920&q=75" alt=""></button>
+
+    <div class="chat-popup" id="myForm">
+        <form class="form-container">
+            <div id="tophead">
+                <p>Shine Learning</p>
+                <h2 id="chatfull">↗</h2>
+                <button type="button" id="btncancel" class="btn cancel" onclick="closeForm()">➖</button>
+            </div>
+            <div id="imgsection">
+                <img src="https://v2.zopim.com/widget/images/avatar_simple_agent.png" alt="">
+                <div id="twohead">
+                    <h5>Career Counsellor</h5>
+                    <h5>Ask us anything</h5>
+
+                </div>
+
+            </div>
+
+            <label for="msg"><b></b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+
+        </form>
+    </div>
+
+
+<!-- ********************************************Crousel function Section******************************************************* -->
+
+
+    <div class="container"> 
+        <h1 id="crousalheading">Reviews</h1>
+        <div id="early">
+          <button id="applicantlefts" class="crousel1"><</button>
+          <div class="earlyscrool" id="earlyscrool1">
+            <div>
+              <div class="applicantdiv">
+                <h2>Good response</h2>
+  
+                <div class="locationj">
+                  <span class="material-symbols-outlined">
+                    <p>5 ⭐ 16 Dec,2020</p>
+                  </span>
+  
+                  <span class="material-symbols-outlined"> </span>
+                </div>
+                <h3 class="headcrousal">
+                  As a fresher, I am recieving more
+                  <br />interview calls after upgrading and <br />boosting my
+                  profile on shine.com
+                </h3>
+  
+                <button class="apbtn">Satya</button>
+              </div>
+  
+              <div class="applicantdiv">
+                <h2>Value Addition</h2>
+  
+                <div class="locationj">
+                  <span class="material-symbols-outlined">
+                    <p>4 ⭐ 28 Feb,2022</p>
+                  </span>
+  
+                  <span class="material-symbols-outlined"> </span>
+                </div>
+                <h3 class="headcrousal">
+                  All the services provided in the combo
+                  <br />add great value to your profile
+                </h3>
+                <button class="apbtn">Chaya</button>
+              </div>
+  
+              <div class="applicantdiv">
+                <h2>Resume Builder</h2>
+  
+                <div class="locationj">
+                  <span class="material-symbols-outlined">
+                    <p>5 ⭐ 10 Jan,2021</p>
+                  </span>
+  
+                  <span class="material-symbols-outlined"> </span>
+                </div>
+                <h3 class="headcrousal">
+                  HT media Content writers are good for
+                  <br />visual resume as well as professional <br />experience
+                  resume
+                </h3>
+                <button class="apbtn">Manoj Chaturvedi</button>
+              </div>
+  
+              <div class="applicantdiv">
+                <h2>Good Package</h2>
+  
+                <div class="locationj">
+                  <span class="material-symbols-outlined">
+                    <p>5 ⭐ 16 Dec,2020</p>
+                  </span>
+  
+                  <span class="material-symbols-outlined"> </span>
+                </div>
+                <h3 class="headcrousal">
+                  As a fresher, I am recieving more
+                  <br />interview calls after upgrading and <br />boosting my
+                  profile on shine.com
+                </h3>
+                <button class="apbtn">Sri Kumar</button>
+              </div>
+  
+              <div class="applicantdiv">
+                <h2>Good response</h2>
+  
+                <div class="locationj">
+                  <span class="material-symbols-outlined">
+                    <p>5 ⭐ 16 Dec,2020</p>
+                  </span>
+  
+                  <span class="material-symbols-outlined"> </span>
+                </div>
+                <h3 class="headcrousal">
+                  As a fresher, I am recieving more
+                  <br />interview calls after upgrading and <br />boosting my
+                  profile on shine.com
+                </h3>
+                <button class="apbtn">Satya</button>
+              </div>
+  
+              <div class="applicantdiv">
+                <h2>Good response</h2>
+  
+                <div class="locationj">
+                  <span class="material-symbols-outlined">
+                    <p>5 ⭐ 16 Dec,2020</p>
+                  </span>
+  
+                  <span class="material-symbols-outlined"> </span>
+                </div>
+                <h3 class="headcrousal">
+                  As a fresher, I am recieving more
+                  <br />interview calls after upgrading and <br />boosting my
+                  profile on shine.com
+                </h3>
+                <button class="apbtn">Satya</button>
+              </div>
+            </div>
+          </div>
+          <button id="applicantrights" class="crousel1">></button>
+        </div>
+      </div> 
+
+      <div id="footer">
+
+    </div>
 
 </body>
 
 </html>
 
-<script src="./script/profile_booster.js">
+<script >
+    function toggleText() {
 
 
-    
+var points =
+    document.getElementById("points");
 
+var showMoreText =
+    document.getElementById("moreText");
+
+var buttonText =
+    document.getElementById("textButton");
+
+
+if (points.style.display === "none") {
+
+    showMoreText.style.display = "none";
+
+
+    points.style.display = "inline";
+
+
+    buttonText.innerHTML = "Read More";
+}
+
+else {
+
+    showMoreText.style.display = "inline";
+
+
+    points.style.display = "none";
+
+
+    buttonText.innerHTML = "Read Less";
+}
+}
+
+
+const links = document.querySelectorAll("#fifth ul a");
+
+for (const link of links) {
+link.addEventListener("click", clickHandler);
+}
+
+function clickHandler(e) {
+e.preventDefault();
+const href = this.getAttribute("href");
+const offsetTop = document.querySelector(href).offsetTop;
+
+scroll({
+    top: offsetTop,
+    behavior: "smooth"
+});
+}
+
+window.onscroll = function () { myFunction() };
+
+// Get the navbar
+var navbar = document.getElementById("fifth");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+} else {
+    navbar.classList.remove("sticky");
+}
+}
+
+
+
+function myFunction1() {
+document.getElementById("myDropdown1").classList.toggle("show1");
+}
+
+
+window.onclick = function (event) {
+if (!event.target.matches('.dropbtn1')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content1");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show1')) {
+
+            openDropdown.classList.remove('show1');
+
+        }
+    }
+
+}
+document.getElementById("arrow1").innerText = "<"
+
+
+}
+
+function myFunction2() {
+document.getElementById("myDropdown2").classList.toggle("show1");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+if (!event.target.matches('.dropbtn2')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content2");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show1')) {
+
+            openDropdown.classList.remove('show1');
+
+        }
+    }
+
+}
+document.getElementById("arrow2").innerText = "<"
+
+
+}
+
+
+function myFunction3() {
+document.getElementById("myDropdown3").classList.toggle("show1");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+if (!event.target.matches('.dropbtn3')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content3");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show1')) {
+
+            openDropdown.classList.remove('show1');
+
+        }
+    }
+
+}
+document.getElementById("arrow3").innerText = "<"
+
+
+}
+
+function myFunction4() {
+document.getElementById("myDropdown4").classList.toggle("show1");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+if (!event.target.matches('.dropbtn4')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content4");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show1')) {
+
+            openDropdown.classList.remove('show1');
+
+        }
+    }
+
+}
+document.getElementById("arrow4").innerText = "<"
+
+
+}
+
+function myFunction5() {
+document.getElementById("myDropdown5").classList.toggle("show1");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+if (!event.target.matches('.dropbtn5')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content5");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show1')) {
+
+            openDropdown.classList.remove('show1');
+
+        }
+    }
+
+}
+
+
+
+}
+
+
+
+function openForm() {
+document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+document.getElementById("myForm").style.display = "none";
+}
+
+
+let buy_btn=document.getElementById("buy_btn");
+buy_btn.addEventListener("click",myfun)
+let buy_arr=JSON.parse(localStorage.getItem("buycart"))||[];
+function myfun(event){
+event.preventDefault()
+let obj={
+img:"https://static1.shine.com/l/m/product_image/images_all/1642135143_358.png",
+title: "Profile Booster",
+price: 1999,
+
+}
+buy_arr.push(obj);
+localStorage.setItem("buycart",JSON.stringify(buy_arr))
+
+}
+
+
+
+
+
+let b = 0;
+document.querySelector("#applicantrights").addEventListener("click", () => {
+if (b >= -1000) {
+  b = b + -370;
+}
+document.querySelector("#earlyscrool1>div").style.marginLeft = `${b}px`;
+});
+
+document.querySelector("#applicantlefts").addEventListener("click", () => {
+if (b <= -370) {
+  b = b + 370;
+}
+document.querySelector("#earlyscrool1>div").style.marginLeft = `${b}px`;
+});
+
+let b1 = 0;
+document.querySelector("#applicantrights2").addEventListener("click", () => {
+if (b1 >= -1000) {
+  b1 = b1 + -370;
+}
+document.querySelector("#earlyscrool2>div").style.marginLeft = `${b1}px`;
+});
+
+document.querySelector("#applicantlefts2").addEventListener("click", () => {
+if (b1 <= -370) {
+  b1 = b1 + 370;
+}
+document.querySelector("#earlyscrool2>div").style.marginLeft = `${b1}px`;
+});
+
+let be3 = 0;
+document.querySelector("#applicantrights3").addEventListener("click", () => {
+if (be3 >= -1000) {
+  be3 = be3 + -370;
+}
+document.querySelector("#earlyscrool3>div").style.marginLeft = `${be3}px`;
+});
+
+document.querySelector("#applicantlefts3").addEventListener("click", () => {
+if (be3 <= -370) {
+  be3 = be3 + 370;
+}
+document.querySelector("#earlyscrool3>div").style.marginLeft = `${be3}px`;
+});
 
 </script>
+<script>
+    document.getElementById("chatfull").addEventListener("click",function(){
+        window.location.href = "./fullscreenChat.html"
+    })
+
+
+ 
+
+</script>
+
+
+
+<script src="./script/profile_booster.js"  type="module"></script>

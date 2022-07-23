@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./navbar.css">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+    <div id="topDiv">
+        <div class="topDivClass">
+            <img class="topImg" src="https://static.vecteezy.com/system/resources/previews/002/323/476/original/isolated-of-phone-icon-mobile-phone-symbol-free-vector.jpg" alt="DownloadApp">
+            <h3>Download App</h3>
+        </div>
+        <div class="topDivClass">
+            <img class="topImg" src="https://image.shutterstock.com/image-vector/person-icon-isolated-human-line-260nw-771698839.jpg" alt="ForEmployers">
+            <h3>For Employers</h3>
+        </div>
+        <div class="topDivClass">
+            <img class="topImg" src="https://image.shutterstock.com/image-vector/phone-call-icon-vector-600w-1371165899.jpg" alt="Help">
+            <h3>Help</h3>
+        </div>
+    </div>
+    <div id="middleDiv">
+        <div class="HalfDiv" id="HalfDiv1">
+            <div id="shinelogo">
+                <img src="https://www.shine.com/next/static/images/shine-logo.png" alt="Shine Logo">
+            </div>
+            <div id="inputDiv">
+                <input type="text" placeholder="Job title, skills" >
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        <div class="HalfDiv">
+            <div id="otherHalf1"></div>
+            <div id="otherHalf2">
+                <div  id="dropdown1">
+                    <img src="https://static.thenounproject.com/png/1205419-200.png" alt="img1">
+                    <div id="dropdown-content1">
+                        <h3>Notification</h3>
+                        <div id="dc1">
+                            <img src="https://thumbs.dreamstime.com/b/no-notification-outline-icon-linear-style-sign-mobile-concept-web-design-bell-simple-line-vector-symbol-logo-illustration-125061133.jpg" alt="notification icon" id="notiIcon">
+                            <h4>No Notification</h4>
+                            <p>We Will Notifiy You Once We Have</p>
+                            <p>Something For You</p>
+                        </div>
+                    </div>
+                </div>
+                <div  id="dropdown2">
+                    <img  onclick="add.html" src="https://cdn.iconscout.com/icon/premium/png-128-thumb/shopping-cart-3660737-3051467.png" alt="img2">
+                    <div id="dropdown-content2">
+                        <p id="cartsection5">0</p>
+                    </div>
+                </div>
+                <div  id="dropdown3">
+                    <img src="https://louisville.edu/enrollmentmanagement/images/person-icon/image" alt="img3">
+                    <div id="dropdown-content3">
+                        <h1>Hello User!</h1>
+                        <p>New To Shine?</p>
+                        <button id="btn1">Register</button>
+                        <button id="btn2">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul></ul>
+    <div id="bottomDiv">
+        <div id="B1Half">
+            <div class="dropdown">
+                <span>HOME</span>
+            </div>
+            <div class="dropdown">
+                <span>JOBS</span>
+                <div class="dropdown-content">
+                    <p>Search</p>
+                    <p>Job Alert</p>
+                </div>
+            </div>
+            <div class="dropdown">
+                <span>JOBS SEEKING ASSISTANCE</span>
+                <div class="dropdown-content">
+                    <p onclick="window.location.href = 'profile_booster.html'">Profile Booster</p>
+                    <p>Application Highlighter</p>
+                    <p>Resume Writing</p>
+                    <p>View All</p>
+                </div>
+            </div>
+            <div class="dropdown">
+                <span>COURSES</span>
+                <div class="dropdown-content">
+                    <p>Sales And Marketing</p>
+                    <p>Information And Technology</p>
+                    <p>Operation Management</p>
+                    <p>Human Resources</p>
+                    <p>View All</p>
+                </div>
+            </div>
+            <div class="dropdown">
+                <span onclick="window.location.href = 'career_guidance.html'">CAREER GUIDANCE</span>
+            </div>
+            <div class="dropdown">
+                <span>BLOG</span>
+            </div>
+        </div>
+        <div id="B2Half"></div>
+    </div>
+</body>
+</html>
