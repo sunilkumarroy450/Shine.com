@@ -31,10 +31,10 @@
     color: #505e6b;
 }
 #middleDiv{
-    /* border: 2px solid red; */
     height: 60px;
     width: 100%;
     display: flex;
+    align-items: center;
 }
 .HalfDiv{
     /* border: 1px solid brown; */
@@ -60,17 +60,15 @@
 }
 #inputDiv{
     margin-left: 40px;
-    /* border: 2px solid red; */
-    margin-top: 8px;
-    height: 40px;
-  
+    display: flex;
+    align-items: center;
 }
 #inputDiv input{
     border-color:#f7f8fa ;
     padding:10px 150px 10px 120px ;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    box-shadow: rgba(223, 217, 217, 0.1) 0px 4px 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #inputDiv button{
     border-color:#f7f8fa ;
@@ -155,7 +153,7 @@ display: none;
     height: 15px;
     width: 20px;
     text-align:center;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 #dropdown22:hover #dropdown-content22{
     display: block;
@@ -180,7 +178,7 @@ display: none;
     cursor: pointer;
     margin-top: 16px;
     /* border: 1px solid pink; */
-    height: 150px;
+    height: 230px;
 
     width: 170px;
     padding: 40px;
@@ -196,12 +194,15 @@ display: none;
     border-radius: 5px;
     cursor: pointer;
     border-color: white;
+    color: white;
+    font-weight: 600;
 }
 #btn22{
     margin-top: 26px;
     padding: 10px 35px;
     color: #865aeb;
     font-size: 16px;
+    font-weight: 600;
     background-color: white;
     /* border-color: white; */
     cursor: pointer;
@@ -225,6 +226,7 @@ display: none;
     height: 48px;
     width: 100%;
     display: flex;
+    border-top: 0.5px solid rgb(231, 225, 225);
     /* box-shadow: rgb(250, 250, 250) 3px 3px 6px 0px inset, rgba(244, 242, 242, 0.5) -3px -3px 6px 1px inset; */
     box-shadow: rgba(216, 152, 152, 0.15) 0px 5px 15px 0px;
     /* box-shadow: rgba(255, 255, 255, 0.25) 0px 2px 5px -1px, rgba(150, 135, 135, 0.3) 0px 1px 3px -1px; */

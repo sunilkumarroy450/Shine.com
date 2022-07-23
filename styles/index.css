@@ -318,11 +318,12 @@ ul>li{
 .applicantdiv>h2{
     font-family: sans-serif;
     margin: -10px 0px;
+    color: rgb(81, 79, 79);
 }
 
 .applicantdiv p{
     font-family: sans-serif;
-    color: rgb(203, 193, 193);
+    color: rgb(163, 155, 155);
     font-size: 14px;
 }
 
@@ -336,7 +337,7 @@ ul>li{
 
 .applicantdiv>ul>li{
     border: none;
-    color: rgb(203, 193, 193);
+    color: rgb(176, 169, 169);
     font-size: 12px;
     margin-left: -6px;
     padding-left: 0px;
