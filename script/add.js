@@ -19,12 +19,15 @@ function append(obj){
     var img=document.createElement("img");
     img.setAttribute("id","img")
     img.src=ele.img;
+    let imgdiv = document.createElement("div");
+    imgdiv.setAttribute("id", "imgdiv");
     var title=document.createElement("h2");
     title.innerText=ele.title;
    
     var price=document.createElement("h3");
     price.innerText="$" +ele.price;
     sum+= +ele.price
+    
    var subt= document.getElementById("subt")
    var one= subt.innerHTML= "$"+" "+sum;
    var sgst= document.getElementById("sgst");
@@ -49,7 +52,11 @@ function append(obj){
     btn.addEventListener("click",function(){
         remove(ele,i)
     })
-    div.append(img,title,price,btn);
+    imgdiv.append(img)
+    let titlediv = document.createElement("div")
+    titlediv.setAttribute("id","titlediv");
+    titlediv.append(title,price)
+    div.append(imgdiv,titlediv,btn);
     
     // let con=document.getElementById("add_to_cart");
     con.append(div)

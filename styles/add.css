@@ -80,9 +80,10 @@ justify-content: space-between;
 padding:5px
 }
 #niraj{
-display:flex;
-justify-content: space-between;
-gap:50px;
+display:grid;
+grid-template-columns: 10% 50% 20%;
+justify-content: center;
+gap:40px;
 width:95%;
 margin:30px;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -100,7 +101,10 @@ background-color: white;
 border:none;
 
 }
+
 #img{
+    width: 90px;
+    height: 90px;
 border-radius: 50%;
 /* width:20%; */
 }

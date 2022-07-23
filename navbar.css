@@ -98,7 +98,7 @@
 }
 /* second Div DropDown and Hover ######################################### */
 
-#dropdown1{
+#dropdown11{
     position: relative;
     font-family: sans-serif;
     display: inline-block;
@@ -109,7 +109,7 @@
     width: 70px;
     margin:auto
 }
-#dropdown-content1{
+#dropdown-content11{
 display: none;
 background-color: white;
     font-family: sans-serif;
@@ -130,7 +130,7 @@ font-family: sans-serif;
 margin-top: 50px;
 font-size: 13px;
 }
-#dropdown1:hover #dropdown-content1{
+#dropdown11:hover #dropdown-content11{
     display: block;
     position: fixed;
     left: auto;
@@ -138,26 +138,26 @@ font-size: 13px;
 }
 
 
-#dropdown2{
+#dropdown22{
     position: relative;
     font-family: sans-serif;
     display: inline-block;
     cursor: pointer;
 }
-#dropdown-content2{
+#dropdown-content22{
 display: none;
     font-family: sans-serif;
     cursor: pointer;
     color:white;
     background-color: black;
 }
-#dropdown-content2 P{
+#dropdown-content22 P{
     height: 15px;
     width: 20px;
     text-align:center;
     border: 1px solid green;
 }
-#dropdown2:hover #dropdown-content2{
+#dropdown22:hover #dropdown-content22{
     display: block;
     position: absolute;
     left: auto;
@@ -165,14 +165,14 @@ display: none;
 }
 
 
-#dropdown3{
+#dropdown33{
     position: relative;
     font-family: sans-serif;
     display: inline-block;
     cursor: pointer;
     
 }
-#dropdown-content3{
+#dropdown-content33{
 border-radius: 5px;
 background-color: white;
 display: none;
@@ -188,7 +188,7 @@ display: none;
     justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
-#btn1{
+#btn11{
     margin-top: 15px;
     padding:  10px 55px;
     font-size: 18px;
@@ -197,7 +197,7 @@ display: none;
     cursor: pointer;
     border-color: white;
 }
-#btn2{
+#btn22{
     margin-top: 26px;
     padding: 10px 35px;
     color: #865aeb;
@@ -210,7 +210,7 @@ display: none;
     border-left: #edf2f5;
 }
 
-#dropdown3:hover #dropdown-content3{
+#dropdown33:hover #dropdown-content33{
     display: block;
     position: fixed;
     left: auto;
@@ -240,19 +240,19 @@ display: none;
     font-family: sans-serif;
     position: fixed;
 }
-.dropdown{
+.dropdown00{
     position: relative;
     font-family: sans-serif;
     display: inline-block;
     cursor: pointer;
 }
-.dropdown span{
+.dropdown00 span{
     font-size: 13px;
     font-weight: 700;
     color: #232434;
 
 }
-.dropdown-content{
+.dropdown-content00{
     display: none;
     font-family: sans-serif;
     cursor: pointer;
@@ -261,18 +261,19 @@ display: none;
     width: 180px;
     /* margin-top: 20px; */
     padding: 0px 100px 10px 20px;
+    background-color:#ffffff ;
     box-shadow: rgba(221, 221, 230, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
-.dropdown-content p{
+.dropdown-content00 p{
     line-height: 20px;
     font-family: sans-serif;
     font-size: 13px;
     margin-top: 20px;
 }
-.dropdown-content p:hover{
+.dropdown-content00 p:hover{
     color: #865aeb;
 }
-.dropdown:hover .dropdown-content{
+.dropdown00:hover .dropdown-content00{
     display: block;
     position: absolute;
     border-bottom: 1px solid #865aeb;
