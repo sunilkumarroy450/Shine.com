@@ -578,9 +578,9 @@ h1{
     padding: 30px;
     border: 1px solid;
 }
-.assessment1>div:last-child>div{
+/* .assessment1>div:last-child>div{
     
-}
+} */
 .assessment>div:first-child>img{
 width: 100%;
 }
