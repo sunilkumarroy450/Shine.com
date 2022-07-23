@@ -1,3 +1,11 @@
+import {nav,footer} from "../component/navandfootexport.js"
+
+document.querySelector("#navbar").innerHTML=nav();
+document.querySelector("#footer").innerHTML=footer();
+
+
+
+
 let counter = 1;
 let id;
 const settime = (counter) => {
