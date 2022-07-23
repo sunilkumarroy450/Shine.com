@@ -10,12 +10,23 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="./styles/profile_booster.css">
+    <link rel="stylesheet" href="./navbar.css">
+<link rel="stylesheet" href="./styles/footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    
 
    
 </head>
 
 <body>
     <!-- ******************************************FIRST SECTION*********************************************************** -->
+    <div id="navbar">
+
+    </div>
+    
+    
     <div id="first">
 
 
@@ -185,7 +196,7 @@
                     <strike style="font-family: sans-serif;">₹2999</strike>
                     <h2 style="color: rgb(98, 163, 24); margin-left: -12px;">(33% OFF)</h2>
                 </h2>
-                <button id="buy_btn" >Buy Now</button>
+                <button id="buy_btn" onclick="window.location.href= 'add.html'" >Buy Now</button>
                 <button>📞Talk to Expert</button>
             </div>
 
@@ -531,7 +542,11 @@
           </div>
           <button id="applicantrights" class="crousel1">></button>
         </div>
-      </div> -->
+      </div> 
+
+      <div id="footer">
+
+    </div>
 
 </body>
 
@@ -750,7 +765,7 @@ document.getElementById("myForm").style.display = "none";
 
 let buy_btn=document.getElementById("buy_btn");
 buy_btn.addEventListener("click",myfun)
-let buy_arr=JSON.parse(localStorage.getItem("buy_cart"))||[];
+let buy_arr=JSON.parse(localStorage.getItem("buycart"))||[];
 function myfun(event){
 event.preventDefault()
 let obj={
@@ -818,6 +833,12 @@ document.querySelector("#earlyscrool3>div").style.marginLeft = `${be3}px`;
     document.getElementById("chatfull").addEventListener("click",function(){
         window.location.href = "./fullscreenChat.html"
     })
+
+
+ 
+
 </script>
+
+
 
 <script src="./script/profile_booster.js"  type="module"></script>

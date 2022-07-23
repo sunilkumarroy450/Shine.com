@@ -1,9 +1,9 @@
-/* * {
+body {
     margin: 0;
     padding: 0;
-} */
+} 
 
-#firstDiv {
+#firstDiv00 {
     /* border: 5px solid red; */
     height: 278px;
     display: flex;
@@ -12,7 +12,7 @@
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
-.classDiv {
+.classDiv00 {
     /* border: 2px solid teal; */
     height: 80%;
     width: 180px;
@@ -22,40 +22,40 @@
 
 }
 
-#shineLogoFooter img {
+#shineLogoFooter00 img {
     height: 80%;
     width: 80px;
     margin-top: 15px;
     cursor: pointer;
 }
 
-#shineLogoFooter h3 {
+#shineLogoFooter00 h3 {
     font-weight: 100;
     font-size: 16px;
     margin-top: 4px;
     color: #505e6b;
 }
 
-#playStoreIconDiv {
+#playStoreIconDiv00 {
     margin-top: 40px;
 }
 
-#playStoreIconDiv h2 {
+#playStoreIconDiv00 h2 {
     font-weight: 570;
     font-size: 14px;
     color: #505e6b;
 }
 
-#playStoreIcon img {
+#playStoreIcon00 img {
     height: 30px;
     margin-top: 20px;
 }
 
-#playStoreIcon>img+img {
+#playStoreIcon00>img+img {
     margin-left: 20px;
 }
 
-.classDiv h4 {
+.classDiv00 h4 {
     font-weight: 600;
     font-size: 13px;
     color: #38404c;
@@ -63,7 +63,7 @@
     letter-spacing: 0.5px;
 }
 
-.classDiv p {
+.classDiv00 p {
     margin-top: 16px;
     font-weight: 500;
     font-size: 14px;
@@ -72,7 +72,7 @@
     letter-spacing: 0.3px;
 }
 
-#footerIcon {
+#footerIcon00 {
     /* border: 1px solid ; */
     margin-top: 40px;
     width: 60%;
@@ -80,26 +80,26 @@
 
 }
 
-#footerIcon img {
+#footerIcon00 img {
     width: 22px;
 }
 
-#footerIcon>img+img {
+#footerIcon00>img+img {
     margin-left: 12px;
 }
 
-#extraDiv {
+#extraDiv00 {
     /* border: 1px solid blue; */
     width: 140px;
 }
 
-#extraDiv img {
+#extraDiv00 img {
     width: 50px;
     margin-top: 227px;
     margin-left: 80px;
 }
 
-#secondDiv2 {
+#secondDiv22 {
     /* border: 1px solid; */
     height: 90px;
     display: flex;
@@ -107,7 +107,7 @@
     box-shadow: rgba(255, 255, 255, 0.02) 0px 1px 3px 0px, rgba(171, 188, 205, 0.15) 0px 0px 0px 1px;
 }
 
-#foo1 {
+#foo11 {
     height: 50%;
     width: 78%;
     /* border: 1px solid red; */
@@ -116,7 +116,7 @@
     margin-top: 30px;
 }
 
-#foo1 a {
+#foo11 a {
     font-size: 12px;
     font-weight: 500;
     word-spacing: 5px;
@@ -124,7 +124,7 @@
     font-family: sans-serif;
 }
 
-#foo2 {
+#foo22 {
     height: 50%;
     /* border: 1px solid red; */
     width: 120px;
@@ -132,7 +132,7 @@
     margin-top: 30px;
 }
 
-#foo2 p {
+#foo22 p {
     font-size: 12px;
     font-weight: 500;
     word-spacing: 5px;

@@ -28,9 +28,9 @@ let nav=()=>{
     <div class="HalfDiv">
         <div id="otherHalf1"></div>
         <div id="otherHalf2">
-            <div  id="dropdown1">
+            <div  id="dropdown11">
                 <img src="https://static.thenounproject.com/png/1205419-200.png" alt="img1">
-                <div id="dropdown-content1">
+                <div id="dropdown-content11">
                     <h3>Notification</h3>
                     <div id="dc1">
                         <img src="https://thumbs.dreamstime.com/b/no-notification-outline-icon-linear-style-sign-mobile-concept-web-design-bell-simple-line-vector-symbol-logo-illustration-125061133.jpg" alt="notification icon" id="notiIcon">
@@ -40,20 +40,20 @@ let nav=()=>{
                     </div>
                 </div>
             </div>
-            <div  id="dropdown2">
+            <div  id="dropdown22">
             <img onclick="window.location.href='add.html'" src="https://cdn.iconscout.com/icon/premium/png-128-thumb/shopping-cart-3660737-3051467.png" alt="img2">
                 
-                <div id="dropdown-content2">
+                <div id="dropdown-content22">
                     <p id="cartsection5">0</p>
                 </div>
             </div>
-            <div  id="dropdown3">
+            <div  id="dropdown33">
                 <img src="https://louisville.edu/enrollmentmanagement/images/person-icon/image" alt="img3">
-                <div id="dropdown-content3">
+                <div id="dropdown-content33">
                     <h1>Hello User!</h1>
                     <p>New To Shine?</p>
-                    <button id="btn1">Register</button>
-                    <button id="btn2">Login</button>
+                    <button id="btn11">Register</button>
+                    <button id="btn22">Login</button>
                 </div>
             </div>
         </div>
@@ -62,28 +62,28 @@ let nav=()=>{
 <ul></ul>
 <div id="bottomDiv">
     <div id="B1Half">
-        <div class="dropdown">
-            <span>HOME</span>
+        <div class="dropdown00">
+            <span onclick="window.location.href = 'index.html'">HOME</span>
         </div>
-        <div class="dropdown">
+        <div class="dropdown00">
             <span>JOBS</span>
-            <div class="dropdown-content">
+            <div class="dropdown-content00">
                 <p>Search</p>
                 <p>Job Alert</p>
             </div>
         </div>
-        <div class="dropdown">
+        <div class="dropdown00">
             <span>JOBS SEEKING ASSISTANCE</span>
-            <div class="dropdown-content">
-                <p>Profile Booster</p>
+            <div class="dropdown-content00">
+                <p onclick="window.location.href = 'profile_booster.html'">Profile Booster</p>
                 <p>Application Highlighter</p>
                 <p>Resume Writing</p>
                 <p>View All</p>
             </div>
         </div>
-        <div class="dropdown">
+        <div class="dropdown00">
             <span>COURSES</span>
-            <div class="dropdown-content">
+            <div class="dropdown-content00">
                 <p>Sales And Marketing</p>
                 <p>Information And Technology</p>
                 <p>Operation Management</p>
@@ -91,10 +91,10 @@ let nav=()=>{
                 <p>View All</p>
             </div>
         </div>
-        <div class="dropdown">
-            <span>CAREER GUIDANCE</span>
+        <div class="dropdown00">
+            <span onclick="window.location.href = 'career_guidance.html'">CAREER GUIDANCE</span>
         </div>
-        <div class="dropdown">
+        <div class="dropdown00">
             <span>BLOG</span>
         </div>
     </div>
@@ -103,15 +103,15 @@ let nav=()=>{
 }
 
 let footer=()=>{
-    return `  <div id="firstDiv">
-    <div class="classDiv">
-        <div id="shineLogoFooter">
+    return `  <div id="firstDiv00">
+    <div class="classDiv00">
+        <div id="shineLogoFooter00">
             <img src="https://www.shine.com/next/static/images/shine-logo.png" alt="footerLogo">
             <h3>Great career starts here!</h3>
         </div>
-        <div id="playStoreIconDiv">
+        <div id="playStoreIconDiv00">
             <h2>Download Shine App</h2>
-            <div id="playStoreIcon">
+            <div id="playStoreIcon00">
                 <img src="https://helios-i.mashable.com/imagery/articles/04EZglaVzAW19V6FIiDD3TA/images-1.fit_lim.size_376x.png"
                     alt="playStoreicon">
                 <img src="https://w7.pngwing.com/pngs/468/690/png-transparent-apple-logo-iphone-5c-iphone-x-iphone-8-apple-ios-apple-mac-icon-miscellaneous-heart-logo.png"
@@ -119,7 +119,7 @@ let footer=()=>{
             </div>
         </div>
     </div>
-    <div class="classDiv">
+    <div class="classDiv00">
         <h4>JOB SEEKERS</h4>
         <p>Register / Login</p>
         <p>Browse Jobs</p>
@@ -127,12 +127,12 @@ let footer=()=>{
         <p>Job Assistance Services</p>
         <p>Courses</p>
     </div>
-    <div class="classDiv">
+    <div class="classDiv00">
         <h4>EMPLOYERS</h4>
         <p>Recruiter India</p>
         <p>Post Job</p>
     </div>
-    <div class="classDiv">
+    <div class="classDiv00">
         <h4>PARTNER SITES</h4>
         <p>English Mate</p>
         <p>Study Mate</p>
@@ -141,11 +141,11 @@ let footer=()=>{
         <p>Livehindustan.com</p>
         <p>OTTplay.com</p>
     </div>
-    <div class="classDiv">
+    <div class="classDiv00">
         <h4>CONTACT US</h4>
         <p>080-1006 2222</p>
         <p>contactus@shine.com</p>
-        <div id="footerIcon">
+        <div id="footerIcon00">
             <img src="https://www.maryville.edu/wp-content/uploads/2015/11/Linkedin-logo-1-550x550-300x300.png"
                 alt="linkedIn">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png"
@@ -154,13 +154,13 @@ let footer=()=>{
                 alt="facebook">
         </div>
     </div>
-    <div id="extraDiv">
+    <div id="extraDiv00">
         <img src="https://myqrguide.com/frontend/images/chat.png" alt="msgLogo">
     </div>
 </div>
 <!-- first div end -->
-<div id="secondDiv2">
-    <div id="foo1">
+<div id="secondDiv22">
+    <div id="foo11">
         <a>Feedback |</a>
         <a>| FAQs |</a>
         <a>| About Us |</a>
@@ -174,7 +174,7 @@ let footer=()=>{
         <a>| Disclaimer |</a>
         <a>| Report a Job Posting </a>
     </div>
-    <div id="foo2">
+    <div id="foo22">
         <p>@ 2022 HT Media</p>
         <p>Limited</p>
     </div>
