@@ -9,6 +9,7 @@ document.getElementById("cback").addEventListener("click",()=>{
     document.querySelector("#payment").style.display="block"
 })
 
+
 //pay 
 let doc=JSON.parse(localStorage.getItem("final"))
 document.getElementById("lpay").innerHTML=doc+" "+"fee";
