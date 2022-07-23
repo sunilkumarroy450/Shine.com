@@ -176,10 +176,17 @@ main.append(course,imgdetail,hr,buttondiv)
 
 let data=[
     {course:"course",img:"https://static1.shine.com/l/m/product_image/images_all/1640851375_8085.png",title:"Backend Devloper In Java",test:"TestPrep Training ",time:51,price:12999},
-    {course:"School",img:"https://static1.shine.com/l/m/product_image/images_all/1640851375_8085.png",title:"Backend Devloper In Java",test:"TestPrep Training ",time:51,price:12999},
-    {course:"course",img:"https://static1.shine.com/l/m/product_image/images_all/1640851375_8085.png",title:"Backend Devloper In Java",test:"TestPrep Training ",time:51,price:12999},
-    {course:"course",img:"https://static1.shine.com/l/m/product_image/images_all/1640851375_8085.png",title:"Backend Devloper In Java",test:"TestPrep Training ",time:51,price:12999},
-    {course:"course",img:"https://static1.shine.com/l/m/product_image/images_all/1640851375_8085.png",title:"Backend Devloper In Java",test:"TestPrep Training ",time:51,price:12999}
+    {course:"course",img:"https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1640851637_4621.png&w=64&q=75",title:"Backend Devloper In Python",test:"TestPrep Training ",time:20,price:12999},
+    {course:"course",img:"https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1652953799_9984.png&w=64&q=75",title:"Backend Devloper In Node.js",test:"TestPrep Training ",time:41,price:12999},
+    {course:"course",img:"https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1652953980_7255.png&w=64&q=75",title:"Backend Devloper In .Net",test:"TestPrep Training ",time:21,price:12999},
+    {course:"course",img:"https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1652954044_279.png&w=64&q=75",title:"Frontend Devloper In React.js",test:"TestPrep Training ",time:38,price:12999},
+    {course:"course",img:"https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1640853726_1126.png&w=64&q=75",title:"Frontend Devloper In Angular.js",test:"TestPrep Training ",time:31,price:12999},
+    {course:"course",img:"https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1652954087_2845.png&w=64&q=75",title:"Android Developer",test:"TestPrep Training ",time:43,price:12999},
+    {course:"course",img:"https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fattachment%2Fdefault_product_image.jpg&w=64&q=75",title:"CompTIA Security+ Certification Training - SY0-601",test:"Edureka",time:400,price:34999},
+    {course:"course",img:"https://learning.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1542800087_8980.png&w=64&q=75",title:"Digital Marketing Certification Training",test:"Edureka",time:30,price:19995},
+
+
+
 
 ];
 

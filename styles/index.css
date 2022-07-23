@@ -557,9 +557,30 @@ h1{
     color: white;
 }
 
-
 #earlyscrool6>div{
     display: grid;
+    grid-template-columns: repeat(9,350px);
     gap: 50px;
     transition: 500ms;
+}
+
+.assessment1{
+    display: grid;
+    grid-template-columns:35% 60%;
+    padding: 3%;
+    border: 1px solid;
+}
+.assessment1>div:last-child{
+    display: grid;
+    justify-content: left;
+    align-items: center;
+    font-size: large;
+    padding: 30px;
+    border: 1px solid;
+}
+.assessment1>div:last-child>div{
+    
+}
+.assessment>div:first-child>img{
+width: 100%;
 }
