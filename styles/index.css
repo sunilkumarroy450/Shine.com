@@ -499,6 +499,7 @@ h1{
     width: 350px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 1px 20px;
+    cursor: pointer;
 }
 
 .temp>div:nth-child(2){
@@ -603,4 +604,12 @@ h1{
 }
 .assessment>div:first-child>img{
 width: 100%;
+}
+
+#producttype{
+    display: flex;
+    gap: 15px;
+}
+#producttype>p{
+   cursor: pointer;
 }
