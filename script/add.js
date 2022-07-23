@@ -1,4 +1,4 @@
-var data=JSON.parse(localStorage.getItem("niraj")) || [];
+var data=JSON.parse(localStorage.getItem("buycart")) || [];
 console.log(data)
 append(data);
 // var four=0;
@@ -54,7 +54,7 @@ function append(obj){
 }
 function remove(ele,i){
     data.splice(ele,1)
-    localStorage.setItem("niraj",JSON.stringify(data))
+    localStorage.setItem("buycart",JSON.stringify(data))
     //localStorage.setItem("totalp",JSON.stringify(four))
     append(data);
 }
