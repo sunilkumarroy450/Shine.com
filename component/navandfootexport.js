@@ -48,12 +48,13 @@ let nav=()=>{
                 </div>
             </div>
             <div  id="dropdown33">
-                <img src="https://louisville.edu/enrollmentmanagement/images/person-icon/image" alt="img3">
+                <div id="username"></div>
+                <img id="profilelogo" src="https://louisville.edu/enrollmentmanagement/images/person-icon/image" alt="img3">
                 <div id="dropdown-content33">
                     <h1>Hello User!</h1>
                     <p>New To Shine?</p>
-                    <button id="btn11">Register</button>
-                    <button id="btn22">Login</button>
+                    <button id="btn11" onclick="window.location.href='signup.html'">Register</button>
+                    <button id="btn22" onclick="window.location.href='login.html'">Login</button>
                 </div>
             </div>
         </div>

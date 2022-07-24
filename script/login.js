@@ -1,5 +1,5 @@
 
-
+localStorage.setItem("login",false)
 function constructer(e,p){
      this.login_email=e;
      this.login_pass=p
@@ -24,7 +24,7 @@ function loginfun(e){
     {
         document.getElementById("login_pass_p").innerText="enter valid password"
     }
-    else if ((login_email.length>0)&& (login_pass.length>0))
+    else if ((login_email.length>0) && (login_pass.length>0))
     {
         if ((  document.getElementById("checkBox").checked!==true))
        {
@@ -32,22 +32,18 @@ function loginfun(e){
        }
        else
       {
-        let arr=JSON.parse(localStorage.getItem("sign_data"))||[];
-
-        console.log(sign_data.email)
+        let arr=JSON.parse(localStorage.getItem("signupdata"))||[];
+        console.log(arr)
 
         arr.forEach(function (ele){
             if ((login_email==ele.email)&&(login_pass==ele.pass))
             {
                 alert("Login Successful")
-                
-                localStorage.setItem("login_data",JSON.stringify(login_obj))
+                localStorage.setItem("login_data",JSON.stringify(ele))
+                localStorage.setItem("login",true);
+                window.location="index.html"
             }
-          
         })
       }
     }
-   
-
-
 }
