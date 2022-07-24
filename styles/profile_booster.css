@@ -356,6 +356,7 @@ body{
     width: 22%;
     height: 300px;
     margin: auto;
+   
     align-items: center;
     text-align: center;
 
@@ -690,7 +691,7 @@ body{
 
 
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 800px){
 
     #first{
         display: flex;
@@ -710,6 +711,26 @@ body{
         gap: 20px;
         
     }
+
+    #sixth-2>div{
+      margin-top: 30px;
+    }
+
+    #navbar{
+    display: none;
+    
+
+    } 
+
+    #footer{
+      display: none;
+    }
+    .sticky {
+      position: fixed;
+      top: -50;
+      background-color: white;
+   
+  }
 
 }
 
