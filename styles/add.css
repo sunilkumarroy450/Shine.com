@@ -12,18 +12,29 @@
 #container{
     display: flex;
     justify-content: space-between;
+    
 }
 #add_to_cart{
     width:70%;
     max-height:600px;
     overflow: scroll;
-    /* border: 1px solid rgb(128, 0, 11); */
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-
-
+    padding: 10px; 
 }
+#add_to_cart::-webkit-scrollbar{
+    width: 10px;
+}
+#add_to_cart::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  #add_to_cart::-webkit-scrollbar-thumb {
+    background: rgb(200, 115, 115); 
+  }
+
 #com{
     width:28%;
+    
     /* border: 1px solid rgb(0, 128, 75); */
 
 }
@@ -36,12 +47,15 @@ h4{
     justify-content: space-between;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin:auto;
-    border-radius:3px;
+    /* border-radius:3px; */
+    padding: 10px;
+    border-radius: 10px;
 
 }
 #cou{
     display:flex;
     justify-content: space-between;
+   
 }
 #in{
     width:98%;
@@ -72,6 +86,8 @@ h4{
     border-radius: 3px;
     margin-bottom:20px;
     padding:15px;
+    padding: 10px;
+    border-radius: 20px;
 
 }
 .sub{
@@ -83,11 +99,13 @@ padding:5px
 display:grid;
 grid-template-columns: 10% 50% 20%;
 justify-content: center;
+align-items: center;
+padding: 5px;
 gap:40px;
 width:95%;
 margin:30px;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-border-radius:3px;
+border-radius:5px;
 height:100px;
 
 }

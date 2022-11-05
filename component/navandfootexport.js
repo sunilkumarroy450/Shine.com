@@ -48,12 +48,13 @@ let nav=()=>{
                 </div>
             </div>
             <div  id="dropdown33">
-                <img src="https://louisville.edu/enrollmentmanagement/images/person-icon/image" alt="img3">
+                <div id="username"></div>
+                <img id="profilelogo" src="https://louisville.edu/enrollmentmanagement/images/person-icon/image" alt="img3">
                 <div id="dropdown-content33">
                     <h1>Hello User!</h1>
                     <p>New To Shine?</p>
-                    <button id="btn11">Register</button>
-                    <button id="btn22">Login</button>
+                    <button id="btn11" onclick="window.location.href='signup.html'">Register</button>
+                    <button id="btn22" onclick="window.location.href='login.html'">Login</button>
                 </div>
             </div>
         </div>
@@ -120,7 +121,7 @@ let footer=()=>{
         </div>
     </div>
     <div class="classDiv00">
-        <h4>JOB SEEKERS</h4>
+        <h3>JOB SEEKERS</h3>
         <p>Register / Login</p>
         <p>Browse Jobs</p>
         <p>Create Free Job Alert</p>
@@ -128,12 +129,12 @@ let footer=()=>{
         <p>Courses</p>
     </div>
     <div class="classDiv00">
-        <h4>EMPLOYERS</h4>
+        <h3>EMPLOYERS</h3>
         <p>Recruiter India</p>
         <p>Post Job</p>
     </div>
     <div class="classDiv00">
-        <h4>PARTNER SITES</h4>
+        <h3>PARTNER SITES</h3>
         <p>English Mate</p>
         <p>Study Mate</p>
         <p>Hindustantimes.com</p>
@@ -142,7 +143,7 @@ let footer=()=>{
         <p>OTTplay.com</p>
     </div>
     <div class="classDiv00">
-        <h4>CONTACT US</h4>
+        <h3>CONTACT US</h3>
         <p>080-1006 2222</p>
         <p>contactus@shine.com</p>
         <div id="footerIcon00">

@@ -55,7 +55,7 @@ body {
     margin-left: 20px;
 }
 
-.classDiv00 h4 {
+.classDiv00>h3 {
     font-weight: 600;
     font-size: 13px;
     color: #38404c;
@@ -63,7 +63,7 @@ body {
     letter-spacing: 0.5px;
 }
 
-.classDiv00 p {
+.classDiv00>p {
     margin-top: 16px;
     font-weight: 500;
     font-size: 14px;

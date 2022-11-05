@@ -1,0 +1,205 @@
+
+        #back{
+            display: flex;
+            width: 100%;
+            height: 700px;
+            background-color:rgb(251,251,251) ;
+            margin-top: 150px;
+            gap: 20px;
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+          
+        }
+        #login_div{
+            width: 30%;
+           height: 520px;
+            margin-left:330px ;
+            margin-top: 100px;
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        }
+        #first_h1{
+            margin-left:50px;
+            font-style: normal;
+        }
+        #checklogin{
+            margin-left: 40px;
+            margin-top: 10px;
+        }
+        #checklogin>a{
+            margin-left: 140px;
+            margin-top: 10px;
+            
+        }
+        a{
+            text-decoration: none;
+        }
+        #login_email{
+            width: 80%;
+            height: 40px;
+            border-radius: 5px;
+            margin-left: 40px;
+            margin-top: -10px;
+        }
+        #login_email_p{
+        margin-left: 50px;
+        color: red;
+        font-size: 12px;
+        margin-top: -2px;
+       }
+        #login_pass{
+            width: 80%;
+            height: 40px;
+            border-radius: 5px;
+            margin-left: 40px;
+            margin-top: 5px;
+        }
+        #login_pass_p{
+
+        margin-left: 50px;
+        color: red;
+        font-size: 12px;
+        margin-top: -3px;
+      }
+        #loginbtn{
+            margin-left:40px;
+            width: 80%;
+            height: 40px;
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 5px;
+            color: white;
+            border-color: rgb(231, 226, 226);
+            background-color: rgb(153,156,219);
+            cursor: pointer;
+        }
+        #underline1{
+            width: 160px;
+            margin-top: 40px;
+            margin-left: 70px;
+            border: 1px solid gray;
+        }
+        #underline1+p{
+            color:black;
+            margin-top: -15px;
+            margin-left: 235px;
+            font-size: 20px;
+        }
+        #underline2{
+            width: 160px;
+            margin-top: -30px;
+            margin-left: 255px;
+            border: 1px solid gray;
+        }
+        #all_link{
+            margin: auto;
+            display: flex;
+            width: 50%;
+            margin-top: -20px;
+            justify-content: space-evenly;
+        }
+       
+        #google_link{
+        display: flex;
+        width: 100%;
+        background-color:white;
+        border-radius: 5px;
+        margin-left: -15px;  
+        margin-top: 50px;
+        border: none;
+        cursor: pointer;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    }
+        .image_logo{
+        height: 25px;
+        margin-top: 11px;
+        margin-left: 5px;    
+    }
+        #google_link>h3{
+        margin-left: 5px;
+        margin-right: 20px;
+        color: gray;  
+        font-size: 15px;
+    }
+    #linkedin_link{
+        display: flex;
+        width: 100%;
+        background-color:white;
+        border-radius: 5px;
+        margin-left: 10px;  
+        margin-top: 50px;
+        border: none;
+        cursor: pointer;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    } 
+    #linkedin_link>h3{
+        margin-left: 10px;
+        margin-right: 10px;
+        color: gray;  
+        font-size: 15px;
+    }
+    #facebook_link{
+        display: flex;
+        width: 100%;
+        background-color:white;
+        border-radius: 5px;
+        margin-left: 18px;  
+        margin-top: 50px;
+        border:none;
+        cursor: pointer;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    }
+    #facebook_link>h3{
+        margin-left: 10px;
+        margin-right: 10px;
+        color: gray;  
+        font-size: 15px;
+    }
+    #termcon{
+           position: absolute;
+           margin-top: 140px;
+           margin-left: -100px;
+           font-size: 12px;
+        }
+        #termcon+a{
+            position: absolute;
+           margin-top: 140px;
+           margin-left: 280px;
+           font-size: 12px;
+        }
+        #login_last_div{
+            display: flex;
+            width: 100%;
+            height: 40px;
+            margin-top: 100px;
+            text-align: center;
+            background-color: rgb(216, 213, 213);
+        }
+        #last_text{
+          margin-left: 120px;
+          margin-top: 13px;
+    
+        }
+        #register_link{
+           margin-top: 13px;
+           font-weight: bolder;
+           
+        }
+        #text_part{
+          
+            width:30%;
+            height: 280px;
+            text-align: center;
+            margin-top: 180px;
+            color: gray;
+          
+          
+            /* margin-top: -320px;
+            margin-left: 1000px; */
+        }
+       #last_logo{
+        margin-left: -12.5px;
+       }
+     
+     
+        
+    

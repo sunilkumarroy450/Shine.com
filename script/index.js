@@ -229,3 +229,12 @@ window.location="add.html"
 }
 
 document.querySelector("#cartsection5").innerText=cartdataLs.length;
+let flag=localStorage.getItem("login");
+let loged=JSON.parse(localStorage.getItem("login_data"))
+if(flag=="true"){
+    document.querySelector("#profilelogo").style.display="none"
+    document.querySelector("#username").innerText=loged.name;
+}else{
+    document.querySelector("#profilelogo").style.display="block";
+    document.querySelector("#username").style.display="none";
+}

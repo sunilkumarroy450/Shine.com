@@ -5,6 +5,8 @@ function constr(n,e,m,p){
     this.pass=p
 }
 
+let signupdataLs=JSON.parse(localStorage.getItem("signupdata")) || [];
+
 function inputfun(e){
 e.preventDefault()
  let form=document.getElementById("input_form")
@@ -13,10 +15,9 @@ e.preventDefault()
  let email=form.email.value;
  let mob=form.mob.value;
  let pass=form.pass.value;
- console.log(name,email,pass)
- let sign_obj=new constr(name,email,mob,pass)
- console.log(sign_obj)
-
-
-
+//  console.log(name,email,pass)
+ let sign_obj=new constr(name,email,mob,pass);
+ signupdataLs.push(sign_obj);
+ localStorage.setItem("signupdata",JSON.stringify(signupdataLs));
+ window.location="identy.html"
 }
